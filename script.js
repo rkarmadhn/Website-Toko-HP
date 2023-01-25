@@ -2,12 +2,12 @@
 const navbar = document.querySelector("#navbar");
 const navbarComponent = `<div class="container-xl">
     <div class="navbar-brand">
-      <a href="http://"></a>
+      <a href="http://"><img src="images/logo-black.png" alt="logo-black" /></a>
     </div>
     <div class="navbar-items">
       <div class="head-menu">
-        <div class="navbar-brand">
-          <a href="http://"></a>
+      <div class="head-menu-logo">
+      <a href="http://"><img src="images/logo-black.png" alt="logo-black" /></a>
         </div>
         <button class="btn-hide"><i class="fa-solid fa-xmark"></i></button>
       </div>
