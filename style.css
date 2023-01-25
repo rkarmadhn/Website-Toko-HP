@@ -49,6 +49,7 @@ nav {
   position: fixed;
   width: 100%;
   transition: 0.5s;
+  z-index: 90000;
 }
 .container-xl .navbar-brand a img {
   width: 100%;
@@ -57,44 +58,6 @@ nav {
 
 /* Hero Section */
 
-/* Features Section */
-.features-section {
-  background-color: #f3f3f3;
-}
-.card-title {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-.card-title span {
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  background-color: #000;
-}
-.card-title h5,
-.card-text p {
-  margin: 0;
-}
-
-/* CTA Section */
-.cta {
-  background-image: url("https://cdn.pixabay.com/photo/2014/09/30/11/55/castle-467116_960_720.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.cta * {
-  z-index: 2;
-}
-
-/* Footer */
-footer {
-  background-color: #000;
-  padding: 1rem 0;
-}
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
