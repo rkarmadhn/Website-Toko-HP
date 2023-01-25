@@ -64,7 +64,7 @@ button {
 @media (max-width: 575.98px) {
   /* Hero Section */
   .slick-banner-content img {
-    height: 100vh !important;
+    height: 50vh !important;
   }
 }
 
@@ -124,6 +124,10 @@ button {
   }
 
   /* Hero Section */
+  .prev-btn,
+  .next-btn {
+    width: 100px;
+    height: 50vh !important;
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -131,7 +135,7 @@ button {
 }
 
 /* X-Large devices (large desktops, less than 1400px) */
-@media screen and (max-width: 1399.98px) {
+@media (max-width: 1399.98px) {
   .head-menu,
   .btn-menu {
     display: none;
