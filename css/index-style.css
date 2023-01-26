@@ -6,6 +6,7 @@ nav{
     padding: .5rem 0;
     width: 100%;
     position: fixed;
+    top: 0;
 }
 nav .container{
     display: flex;
@@ -14,8 +15,8 @@ nav .container{
 }
 .slick-banner {
     width: 100%;
-    height: 100vh;
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -25,13 +26,15 @@ nav .container{
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-
+    .slick-banner{
+        height: 60vh !important;
+    }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 991.98px) {
     .slick-banner{
-        background-size: cover;
+        height: 100vh;
     }
 }
 
