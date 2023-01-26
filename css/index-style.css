@@ -48,6 +48,15 @@ nav .container {
 .hide {
   display: none !important;
 }
+.about-section-more {
+  display: none;
+  position: relative;
+  transition: all 0.5s;
+}
+.btn-close-custom {
+  position: absolute;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
+}
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -60,6 +69,12 @@ nav .container {
   .about-section-more {
     padding: 3rem 0;
   }
+
+  .btn-close-custom {
+    top: 12%;
+    right: 5%;
+    font-size: 16px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -70,6 +85,12 @@ nav .container {
   .banner,
   .about-section-more {
     height: 100vh;
+  }
+
+  .btn-close-custom {
+    top: 15%;
+    right: 2.5%;
+    font-size: 24px;
   }
 }
 

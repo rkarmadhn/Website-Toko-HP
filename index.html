@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-
     <!-- Css -->
     <link rel="stylesheet" href="css/index-style.css" />
+    <!-- Fontawesome icons -->
+    <script src="https://kit.fontawesome.com/ec50e522c8.js" crossorigin="anonymous"></script>
     <title>Hello, world!</title>
   </head>
   <body>
     <nav id="mynav">
       <div class="container">
         <div class="navbar-logo">
-          <img src="images/logo-circle-white.png" alt="" class="sticky"/>
-          <img src="images/logo-circle-black.png" alt="" class="non-sticky hide"/>
+          <img src="images/logo-circle-white.png" alt="" class="sticky" />
+          <img src="images/logo-circle-black.png" alt="" class="non-sticky hide" />
         </div>
         <div class="navbar-items"></div>
         <div class="navbar-button"></div>
@@ -47,7 +47,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 h-100 banner-text">
               <div class="wrap">
                 <h1>Tentang Kami!</h1>
-                <a href="http://" class="links">Selanjutnya</a>
+                <a class="links link-about">Selanjutnya</a>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@
       </div>
     </div>
     <div class="about-section-more">
-      <div class="container-fluid h-100">
+      <div class="container h-100">
         <div class="row justify-content-center h-100">
           <div class="col-lg-12 col-md-12 col-sm-12 h-100 banner-text">
             <div class="banner-modal">
@@ -70,8 +70,36 @@
           </div>
         </div>
       </div>
+      <button type="button" class="btn btn-close-custom"><i class="fa-solid fa-xmark"></i></button>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.js"
+      integrity="sha512-nO7wgHUoWPYGCNriyGzcFwPSF+bPDOR+NvtOYy2wMcWkrnCNPKBcFEkU80XIN14UVja0Gdnff9EmydyLlOL7mQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        let width = screen.width;
+
+        $(".link-about").click(function () {
+          $(".about-section-more").toggle().fadeIn();
+          if (width <= 575) {
+            $(window).scrollTop(600);
+          }
+          if (width >= 576 || width <= 768) {
+            $(window).scrollTop(1075);
+          }
+          if (width >= 769) {
+            $(window).scrollTop(1400);
+          }
+        });
+        $(".btn-close-custom").click(function () {
+          $(".about-section-more").hide();
+        });
+      });
+    </script>
   </body>
 </html>
