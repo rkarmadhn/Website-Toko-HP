@@ -1,47 +1,68 @@
-body{
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap");
+
+body {
+  box-sizing: border-box;
+  font-family: "Inter Tight", sans-serif;
 }
-nav{
-    background-color: #212121;
-    padding: .5rem 0;
-    width: 100%;
-    position: fixed;
-    top: 0;
+nav {
+  background-color: #212121;
+  padding: 0.5rem 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
-nav .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .slick-banner {
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slick-banner-text {
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+}
+.slick-banner-text h1 {
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-}
-
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-    .slick-banner{
-        height: 60vh !important;
+    .slick-banner {
+      height: 60vh !important;
     }
-}
-
-/* Medium devices (tablets, less than 992px) */
-@media (min-width: 991.98px) {
-    .slick-banner{
-        height: 100vh;
+    .slick-banner-text h1 {
+      font-size: 2rem !important;
     }
+  }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .slick-banner-text h1 {
+        font-size: 3rem;
+      }
 }
 
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
 }
 
-/* X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .slick-banner-text h1 {
+        font-size: 4rem;
+      }
 }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
