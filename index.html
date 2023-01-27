@@ -81,7 +81,7 @@
             <h1 style="color: #212121">Layanan yang Tersedia</h1>
           </div>
           <div class="slick-card-row">
-            <div class="col-lg-4 col-md-6 col-sm-12 card">
+            <div class="card">
               <div class="card-details">
                 <p class="text-title" style="background-image: url('https://cdn.pixabay.com/photo/2012/03/04/00/52/battery-22119__340.jpg')"></p>
                 <div class="text-body">
@@ -91,7 +91,7 @@
                 <button class="card-button">More info</button>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 card">
+            <div class="card">
               <div class="card-details">
                 <p class="text-title" style="background-image: url('https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327__340.jpg')"></p>
                 <div class="text-body">
@@ -101,7 +101,7 @@
               </div>
               <button class="card-button">More info</button>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 card">
+            <div class="card">
               <div class="card-details">
                 <p class="text-title" style="background-image: url('https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327__340.jpg')"></p>
                 <div class="text-body">
@@ -111,7 +111,7 @@
               </div>
               <button class="card-button">More info</button>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 card">
+            <div class="card">
               <div class="card-details">
                 <p class="text-title" style="background-image: url('https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327__340.jpg')"></p>
                 <div class="text-body">
@@ -121,7 +121,7 @@
               </div>
               <button class="card-button">More info</button>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 card">
+            <div class="card">
               <div class="card-details">
                 <p class="text-title" style="background-image: url('https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327__340.jpg')"></p>
                 <div class="text-body">
@@ -131,7 +131,7 @@
               </div>
               <button class="card-button">More info</button>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 card">
+            <div class="card">
               <div class="card-details">
                 <p class="text-title" style="background-image: url('https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327__340.jpg')"></p>
                 <div class="text-body">
@@ -141,7 +141,7 @@
               </div>
               <button class="card-button">More info</button>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 card">
+            <div class="card">
               <div class="card-details">
                 <p class="text-title" style="background-image: url('https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327__340.jpg')"></p>
                 <div class="text-body">
@@ -164,6 +164,7 @@
       referrerpolicy="no-referrer"
     ></script>
     <script src="js/slick-1.8.1/slick/slick.js"></script>
+    <script type="text/javascript" src="js/categories.js"></script>
     <script>
       $(document).ready(function () {
         let width = screen.width;
@@ -186,8 +187,8 @@
 
         $(".slick-card-row").slick({
           infinite: false,
-          prevArrow: `<button type="button" class="btn-prev"><i class="fa-solid fa-circle-arrow-left"></i></button>`,
-          nextArrow: `<button type="button" class="btn-next"><i class="fa-solid fa-circle-arrow-right"></i></button>`,
+          prevArrow: `<button type="button" class="btn-card btn-prev"><i class="fa-solid fa-circle-arrow-left"></i></button>`,
+          nextArrow: `<button type="button" class="btn-card btn-next"><i class="fa-solid fa-circle-arrow-right"></i></button>`,
           speed: 300,
           slidesToShow: 3,
           slidesToScroll: 1,
@@ -207,6 +208,18 @@
               },
             },
           ],
+        });
+
+        $(".btn-next").click(function () {
+          $(this).addClass("active");
+          $(".btn-prev").removeClass("active");
+        });
+        $(".btn-prev").click(function () {
+          $(this).addClass("active");
+          $(".btn-next").removeClass("active");
+        });
+        $(".btn-card").mouseleave(() => {
+          $(".btn-card").removeClass("active");
         });
       });
     </script>
