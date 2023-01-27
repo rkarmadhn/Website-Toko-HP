@@ -1,55 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap");
 
-body {
-  box-sizing: border-box;
-  font-family: "Inter Tight", sans-serif;
-}
-a {
-  text-decoration: none;
-  cursor: pointer;
-}
-a.links {
-  color: #fff;
-  font-size: 18px;
-  transition: all 0.5s;
-}
-.links:hover {
-  color: gold;
-}
-nav {
-  background-color: rgba(0, 0, 0, 0.75);
-  padding: 0.5rem 0;
-  width: 100%;
-  position: fixed;
-}
-nav .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.hide {
-  display: none !important;
-}
-.btn-close-custom {
-  font-size: 18px;
-  font-weight: 500;
-  color: #212121;
-  transition: all 0.5s;
-}
-a.btn-close-custom:hover {
-  color: gold;
-}
-.btn-prev,
-.btn-next {
-  position: absolute;
-  font-size: 32px;
-  background-color: transparent;
-  color: #212121;
-  opacity: 0.5;
-  border: none;
-  transition: all 0.5s;
-}
-.btn-card.active {
+
+
+.btn-card.active,
+.btn-card:hover {
   opacity: 1;
 }
 

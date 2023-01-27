@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap");
+@import url("navigation-style.css");
+@import url("index-style.css");
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Inter Tight", sans-serif;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.hide {
+  display: none !important;
+}
+.links {
+  color: #fff;
+  font-size: 18px;
+}
+.links:hover {
+  color: gold;
+}
+
+/* Button */
+button{
+    background-color: transparent;
+    border: none;
+    transition: all .5s;
+    font-size: 18px;
+}
+.btn-close-custom {
+  font-size: 18px;
+  font-weight: 500;
+  color: #212121;
+}
+.btn-close-custom:hover {
+  color: gold;
+}
+.btn-prev,
+.btn-next {
+  position: absolute;
+  font-size: 32px;
+  color: #212121;
+  opacity: 0.5;
+}
