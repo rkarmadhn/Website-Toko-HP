@@ -8,19 +8,48 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+a.links {
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+.links:hover {
+  color: gold;
+}
 nav {
   background-color: rgba(0, 0, 0, 0.75);
   padding: 0.5rem 0;
   width: 100%;
   position: fixed;
-  top: 0;
 }
 nav .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.banner {
+.hide {
+  display: none !important;
+}
+.btn-close-custom {
+  font-size: 18px;
+  font-weight: 500;
+  color: #212121;
+  transition: all 0.5s;
+}
+a.btn-close-custom:hover {
+  color: gold;
+}
+.btn-prev,
+.btn-next {
+  border: none;
+  background-color: transparent;
+  font-size: 32px;
+  position: absolute;
+}
+
+/* Banner */
+.banner,
+.text-title {
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -39,46 +68,115 @@ nav .container {
 .banner-modal * {
   color: #212121;
 }
-.about-section {
-  margin: 0.5rem 0;
-}
-.wrap {
-  text-align: center;
-}
-.hide {
-  display: none !important;
-}
+
+/* About Section */
 .about-section-more {
   display: none;
   position: relative;
   transition: all 0.5s;
 }
-.btn-close-custom {
+
+/* Card Section */
+.card-section {
+  position: relative;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 1rem 0.5rem;
+  background-color: transparent;
+}
+.card-details {
+  background-color: #212121;
+  padding: 1.5rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid #fff;
+  transition: all 0.5s;
+}
+.card-details .text-body {
+  color: #fff !important;
+  width: 100%;
+  height: 100%;
+}
+.card-button {
+  transform: translate(-50%, 125%);
+  border-radius: 1rem;
+  border: none;
+  background-color: #008bf8;
+  color: #fff;
+  font-size: 14px;
+  padding: 0.25rem 1rem;
   position: absolute;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
+  left: 50%;
+  opacity: 0;
+  transition: 0.5s ease-out;
+}
+.card:hover .card-details {
+  border-color: #008bf8;
+}
+.card:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .btn-prev {
+    bottom: -12.5%;
+    left: 40%;
+    right: 50%;
+  }
+  .btn-next {
+    bottom: -12.5%;
+    left: 50%;
+    right: 40%;
+  }
+  /* Banner */
   .banner {
     height: 60vh !important;
   }
   .banner-text h1 {
     font-size: 2rem !important;
   }
+
+  /* About section more */
   .about-section-more {
     padding: 3rem 0;
+    background-color: #212121;
+  }
+  .about-section-more * {
+    color: #fff;
+  }
+  .text-title {
+    height: 200px;
+    border-radius: 0.5rem;
   }
 
-  .btn-close-custom {
-    top: 12%;
-    right: 5%;
-    font-size: 16px;
+  /* Card Section */
+  .card-section .banner .container-fluid {
+    padding-top: 1rem;
+  }
+  .card-button {
+    width: 25%;
+    bottom: 4%;
   }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .btn-prev {
+    bottom: -12.5%;
+    left: 40%;
+    right: 50%;
+  }
+  .btn-next {
+    bottom: -12.5%;
+    left: 50%;
+    right: 40%;
+  }
+
+  /* Banner */
   .banner-text h1 {
     font-size: 3rem;
   }
@@ -87,19 +185,51 @@ nav .container {
     height: 100vh;
   }
 
-  .btn-close-custom {
-    top: 15%;
-    right: 2.5%;
-    font-size: 24px;
+  .text-title {
+    height: 250px;
+    border-radius: 0.5rem;
+  }
+
+  /* Card-section */
+  .card-section .banner .container-fluid {
+    padding-top: 5rem;
+  }
+  .card-button {
+    width: 25%;
+    bottom: 3.75%;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  /* Banner */
+  .banner-text h1 {
+    margin-bottom: 2rem;
+  }
+
+  /* Card-section */
+  .card-section .banner .container-fluid {
+    padding-top: 4rem;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .card-button{
+        width: 50%;
+    }
+  .btn-prev {
+    bottom: -10%;
+    left: 45%;
+    right: 50%;
+  }
+  .btn-next {
+    bottom: -10%;
+    left: 50%;
+    right: 45%;
+  }
+
+  /* Banner */
   .banner-text h1 {
     font-size: 4rem;
   }
@@ -109,8 +239,9 @@ nav .container {
   .banner-modal h3 {
     font-size: 2rem;
   }
-}
 
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+  .text-title {
+    height: 300px;
+    border-radius: 0.5rem;
+  }
 }
