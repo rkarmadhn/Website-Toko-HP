@@ -120,10 +120,7 @@
     width: 25%;
     bottom: 4%;
   }
-  .banner-full{
-    height: 100vh !important;
-  }
-  .banner-full .text-title{
+  .banner .text-title{
     height: 300px;
   }
   .btn-card{
