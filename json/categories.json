@@ -1,32 +1,44 @@
 [
   {
     "id": 1,
-    "images": "a",
-    "title": "a",
-    "deskripsi": "oke"
+    "images": "images-samsung",
+    "title": "Service Samsung",
+    "deskripsi": "Harga ganti LCD, Baterai, Papan Konektor, dll."
   },
   {
     "id": 2,
-    "images": "aw",
-    "title": "a",
-    "deskripsi": "oke"
+    "images": "images-apple",
+    "title": "Service Iphone",
+    "deskripsi": "Harga ganti LCD, Baterai, Papan Konektor, dll."
   },
   {
     "id": 3,
-    "images": "aw",
-    "title": "a",
-    "deskripsi": "oke"
+    "images": "images-oppo",
+    "title": "Service Oppo",
+    "deskripsi": "Harga ganti LCD, Baterai, Papan Konektor, dll."
   },
   {
     "id": 4,
-    "images": "awd",
-    "title": "a",
-    "deskripsi": "oke"
+    "images": "images-realme",
+    "title": "Service Realme",
+    "deskripsi": "Harga ganti LCD, Baterai, Papan Konektor, dll."
   },
   {
     "id": 5,
-    "images": "aw",
-    "title": "a",
-    "deskripsi": "oke"
+    "images": "images-vivo",
+    "title": "Service Vivo",
+    "deskripsi": "Harga ganti LCD, Baterai, Papan Konektor, dll."
+  },
+  {
+    "id": 6,
+    "images": "images-xiaomi",
+    "title": "Service Xiaomi",
+    "deskripsi": "Harga ganti LCD, Baterai, Papan Konektor, dll."
+  },
+  {
+    "id": 7,
+    "images": "images-poco",
+    "title": "Service Poco",
+    "deskripsi": "Harga ganti LCD, Baterai, Papan Konektor, dll."
   }
 ]

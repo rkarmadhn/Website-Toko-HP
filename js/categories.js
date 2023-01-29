@@ -1,6 +1,7 @@
+const cardCat = document.querySelector("#card-row");
 let catData = [];
 
-const loadData = async () => {
+const loadDatas = async () => {
   try {
     const resData = await fetch("/json/categories.json");
     catData = await resData.json();
@@ -11,10 +12,11 @@ const loadData = async () => {
 };
 
 const loadOutputDataCat = (data) => {
-  const tampil = data.map((eData) => {
-    return eData;
-  });
-  console.log(tampil);
+  const tampilCard = data
+    .map((eData) => {
+      return ``;
+    })
+    .join("");
 };
 
-loadData();
+loadDatas();
