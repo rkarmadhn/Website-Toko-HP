@@ -14,6 +14,7 @@
   </head>
   <body>
     <nav id="myNav"></nav>
+    
 
     <div class="hero-section">
       <div class="slick">
@@ -65,100 +66,26 @@
       </div>
     </div>
 
-    <div class="card-section py-1 px-2">
-      <div class="banner">
-        <div class="container-fluid">
-          <div class="banner-text">
-            <h1 style="color: #212121">Layanan yang Tersedia</h1>
+    <div class="card-section" style="background-color: #212121;">
+        <div class="container h-100" >
+          <div class="banner-text text-center">
+            <h1>Kenapa Memilih Kami</h1>
           </div>
           <div class="slick-card-row">
             <div class="card">
-              <div class="card-details">
-                <div>
-                  <p class="text-title" style="background-image: url('images/images-card/images-samsung.png')"></p>
-                </div>
-                <div class="text-body">
-                  <h4>Service Samsung</h4>
-                  <p>Harga ganti LCD, Baterai, Papan Konektor, dll.</p>
-                </div>
-                <button class="card-button">More info</button>
-              </div>
+              <img src="images/images-card/images-card-1.png" alt="" class="images-card" />
             </div>
             <div class="card">
-              <div class="card-details">
-                <div>
-                  <p class="text-title" style="background-image: url('images/images-card/images-realme.png')"></p>
-                </div>
-                <div class="text-body">
-                  <h4>Service Realme</h4>
-                  <p>Harga ganti LCD, Baterai, Papan Konektor, dll.</p>
-                </div>
-                <button class="card-button">More info</button>
-              </div>
+              <img src="images/images-card/images-card-1.png" alt="" class="images-card" />
             </div>
             <div class="card">
-              <div class="card-details">
-                <div>
-                  <p class="text-title" style="background-image: url('images/images-card/images-vivo.png')"></p>
-                </div>
-                <div class="text-body">
-                  <h4>Service Vivo</h4>
-                  <p>Harga ganti LCD, Baterai, Papan Konektor, dll.</p>
-                </div>
-                <button class="card-button">More info</button>
-              </div>
+              <img src="images/images-card/images-card-1.png" alt="" class="images-card" />
             </div>
             <div class="card">
-              <div class="card-details">
-                <div>
-                  <p class="text-title" style="background-image: url('images/images-card/images-xiaomi.png')"></p>
-                </div>
-                <div class="text-body">
-                  <h4>Service Xiaomi</h4>
-                  <p>Harga ganti LCD, Baterai, Papan Konektor, dll.</p>
-                </div>
-                <button class="card-button">More info</button>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-details">
-                <div>
-                  <p class="text-title" style="background-image: url('images/images-card/images-apple.png')"></p>
-                </div>
-                <div class="text-body">
-                  <h4>Service Iphone</h4>
-                  <p>Harga ganti LCD, Baterai, Papan Konektor, dll.</p>
-                </div>
-                <button class="card-button">More info</button>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-details">
-                <div>
-                  <p class="text-title" style="background-image: url('images/images-card/images-oppo.png')"></p>
-                </div>
-                <div class="text-body">
-                  <h4>Service Oppo</h4>
-                  <p>Harga ganti LCD, Baterai, Papan Konektor, dll.</p>
-                </div>
-                <button class="card-button">More info</button>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-details">
-                <div>
-                  <p class="text-title" style="background-image: url('images/images-card/images-poco.png')"></p>
-                </div>
-                <div class="text-body">
-                  <h4>Service Poco</h4>
-                  <p>Harga ganti LCD, Baterai, Papan Konektor, dll.</p>
-                </div>
-                <button class="card-button">More info</button>
-              </div>
+              <img src="images/images-card/images-card-1.png" alt="" class="images-card" />
             </div>
           </div>
         </div>
-      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -192,24 +119,38 @@
         });
 
         $(".slick-card-row").slick({
+          centerMode: true,
+          dots: false,
           infinite: false,
-          prevArrow: `<button type="button" class="btn-card btn-prev"><i class="fa-solid fa-circle-arrow-left"></i></button>`,
-          nextArrow: `<button type="button" class="btn-card btn-next"><i class="fa-solid fa-circle-arrow-right"></i></button>`,
-          speed: 300,
-          slidesToShow: 3,
+          arrows: false,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          slidesToShow: 2,
           slidesToScroll: 1,
           responsive: [
+           
             {
-              breakpoint: 991,
+              breakpoint: 600,
               settings: {
+                centerMode: true,
+                dots: false,
+                infinite: false,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 1500,
                 slidesToShow: 2,
                 slidesToScroll: 1,
               },
             },
             {
-              breakpoint: 575,
+              breakpoint: 480,
               settings: {
+                centerMode: true,
+                dots: false,
+                infinite: false,
+                arrows: false,
                 autoplay: true,
+                autoplaySpeed: 1500,
                 slidesToShow: 1,
                 slidesToScroll: 1,
               },
@@ -217,14 +158,18 @@
           ],
         });
 
-        $(".btn-next").click(function () {
-          $(this).addClass("active");
-          $(".btn-prev").removeClass("active");
-        });
-        $(".btn-prev").click(function () {
-          $(this).addClass("active");
-          $(".btn-next").removeClass("active");
-        });
+        // Button Navbar
+        $('.btn-show').click(function () {
+          $(".btn-show").hide()
+          $(".btn-hide").show()
+          $('.nav-items').css('left', '0')
+        })
+
+        $('.btn-hide').click(function () {
+          $(".btn-hide").hide()
+          $(".btn-show").show()
+          $('.nav-items').css('left', '-100%')
+        })
       });
     </script>
   </body>

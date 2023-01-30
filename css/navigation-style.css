@@ -6,6 +6,7 @@ nav {
   background-color: #fff;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
   transition: all 0.5s;
+  z-index: 900000;
 }
 nav * {
   color: #212121;
@@ -15,43 +16,56 @@ nav .container {
   justify-content: space-between;
   align-items: center;
 }
-.navbar-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
+
 .nav-links {
-  font-size: 18px;
+  font-size: 16px;
 }
-.navbar-items *:hover {
+.nav-items *:hover {
   color: gold;
-}
-.dropdown-toggle {
-  background: transparent;
-  border: none;
-  display: flex;
-  align-items: center;
-}
-/* Dark Theme */
-nav.dark {
-  background-color: rgba(0, 0, 0, 0.75);
-}
-nav.dark * {
-  color: #fff;
-  transition: all 0.5s;
-}
-nav.dark .dropdown-item {
-  color: #212121 !important;
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .btn-show,
+  .btn-hide {
+    font-size: 2rem;
+    transition: all .5s;
+  }
+  .btn-hide{
+    display: none;
+  }
+  .nav-items {
+    position: fixed;
+    top: 68px;
+    left: -100%;
+    width: 100vw;
+    height: 100vh;
+    display: block !important;
+    padding: 8px 12px;
+    background-color: #fff;
+    padding: 20px;
+    transition: all .5s;
+  }
+  .nav-links{
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    color: #212121;
+    border-bottom: 1px solid #212121;
+    padding: 15px 0;
+  }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .navbar-button {
     display: none;
+  }
+  .nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
   }
 }
 /* Medium devices (tablets, 768px and up) */
