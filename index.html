@@ -15,7 +15,7 @@
   <body>
     <nav id="myNav"></nav>
     
-
+    
     <div class="hero-section">
       <div class="slick">
         <div class="banner" style="background-image: url('images/Background\ \(1\).jpg')">
@@ -152,12 +152,14 @@
           $(".btn-show").hide()
           $(".btn-hide").show()
           $('.nav-items').css('left', '0')
+          $('#myNav').addClass('add-border')
         })
 
         $('.btn-hide').click(function () {
           $(".btn-hide").hide()
           $(".btn-show").show()
           $('.nav-items').css('left', '-100%')
+          $('#myNav').removeClass('add-border')
         })
       });
     </script>

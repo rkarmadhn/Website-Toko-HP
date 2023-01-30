@@ -34,16 +34,19 @@ nav .container {
   .btn-hide{
     display: none;
   }
+  .add-border{
+    border-bottom: 1px solid #212121;
+  }
   .nav-items {
     position: fixed;
-    top: 64px;
+    top: 66.5px;
     left: -100%;
     width: 100vw;
     height: 100vh;
     display: block !important;
     padding: 8px 12px;
     background-color: #fff;
-    padding: 20px;
+    padding: 10px 20px 20px 20px;
     transition: all .5s;
   }
   .nav-links{

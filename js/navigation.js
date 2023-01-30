@@ -1,6 +1,6 @@
 const navbarLight = `<div class="container">
     <div class="navbar-logo">
-        <img src="images/logo-circle-black.png" alt="" />
+    <a href="" class="text-logo">RC</a>
     </div>
     <div class="nav-items">
       <a href="http://" class="nav-links">Home</a>
