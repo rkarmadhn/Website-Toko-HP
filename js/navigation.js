@@ -4,6 +4,7 @@ const navbarLight = `<div class="container">
     </div>
     <div class="nav-items">
       <a href="http://" class="nav-links">Home</a>
+      <a href="http://" class="nav-links">Tentang Kami</a>
       <a href="http://" class="nav-links">Location</a>
       <a href="http://" class="nav-links">Contact Us</a>
     </div>

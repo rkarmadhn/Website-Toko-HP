@@ -9,32 +9,24 @@ nav {
   z-index: 900000;
 }
 nav * {
-  color: #212121;
+  color: #212121 !important;
 }
 nav .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.nav-links {
-  font-size: 16px;
-}
-.nav-items *:hover {
-  color: gold;
-}
-
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .btn-show,
   .btn-hide {
     font-size: 2rem;
-    transition: all .5s;
+    transition: all 0.5s;
   }
-  .btn-hide{
+  .btn-hide {
     display: none;
   }
-  .add-border{
+  .add-border {
     border-bottom: 1px solid #212121;
   }
   .nav-items {
@@ -47,9 +39,9 @@ nav .container {
     padding: 8px 12px;
     background-color: #fff;
     padding: 10px 20px 20px 20px;
-    transition: all .5s;
+    transition: all 0.5s;
   }
-  .nav-links{
+  .nav-links {
     width: 100%;
     font-size: 16px;
     line-height: 24px;
