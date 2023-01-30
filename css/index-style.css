@@ -49,7 +49,7 @@
   position: unset !important;
 }
 .card img{
-  border-radius: .5rem;
+  border-radius: 1rem;
 }
 .card-floating-text{
   position: absolute;

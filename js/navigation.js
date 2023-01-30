@@ -1,6 +1,6 @@
 const navbarLight = `<div class="container">
     <div class="navbar-logo">
-    <a href="" class="text-logo">RC</a>
+    <a href="index.html" class="text-logo">RC</a>
     </div>
     <div class="nav-items">
       <a href="http://" class="nav-links">Home</a>
@@ -27,4 +27,19 @@ window.addEventListener("scroll", function () {
     }
     scrollPosition = this.scrollY;
   }
+});
+
+// Button Navbar
+$(".btn-show").click(function () {
+  $(".btn-show").hide();
+  $(".btn-hide").show();
+  $(".nav-items").css("left", "0");
+  $("#myNav").addClass("add-border");
+});
+
+$(".btn-hide").click(function () {
+  $(".btn-hide").hide();
+  $(".btn-show").show();
+  $(".nav-items").css("left", "-100%");
+  $("#myNav").removeClass("add-border");
 });

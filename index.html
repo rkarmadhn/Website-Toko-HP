@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <!-- Css -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index-style.css">
     <!-- Fontawesome icons -->
     <script src="https://kit.fontawesome.com/ec50e522c8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="js/slick-1.8.1/slick/slick.css" />
@@ -24,7 +25,6 @@
               <div class="col-lg-12 col-md-12 col-sm-12 h-100 banner-text">
                 <div class="text-center">
                   <h1>Berkualitas, Profesional, Bisa di Tunggu</h1>
-                  <a href="http://" class="links">Selanjutnya</a>
                 </div>
               </div>
             </div>
@@ -40,7 +40,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 h-100 banner-text">
               <div class="text-center">
                 <h1>Tentang Kami!</h1>
-                <a class="links link-about">Selanjutnya</a>
+                <a href="tentang-kami.html" class="links">Selanjutnya</a>
               </div>
             </div>
           </div>
@@ -82,13 +82,22 @@
               </div>
             </div>
             <div class="card">
-              <img src="images/images-card/images-card-1.png" alt="" class="images-card" />
+              <img src="images/images-card/images-card-2.png" alt="" class="images-card" />
+              <div class="card-floating-text">
+                <div class="wrap">
+                  <h1 class="fw-bold">Service Iphone & Ipad</h1>
+                  <a href="http://" class="links">Selanjutnya</a>
+                </div>
+              </div>
             </div>
             <div class="card">
-              <img src="images/images-card/images-card-1.png" alt="" class="images-card" />
-            </div>
-            <div class="card">
-              <img src="images/images-card/images-card-1.png" alt="" class="images-card" />
+              <img src="images/images-card/images-card-3.png" alt="" class="images-card" />
+              <div class="card-floating-text">
+                <div class="wrap">
+                  <h1 class="fw-bold">Service Hardware & Software</h1>
+                  <a href="http://" class="links">Selanjutnya</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -105,24 +114,6 @@
     <script src="js/navigation.js"></script>
     <script>
       $(document).ready(function () {
-        let width = screen.width;
-
-        $(".link-about").click(function () {
-          $(".about-section-more").toggle().fadeIn();
-          if (width <= 575) {
-            $(window).scrollTop(600);
-          }
-          if (width >= 576 || width <= 768) {
-            $(window).scrollTop(1075);
-          }
-          if (width >= 769) {
-            $(window).scrollTop(1400);
-          }
-        });
-        $(".btn-close-custom").click(function () {
-          $(".about-section-more").hide();
-        });
-
         $(".slick-card-row").slick({
           dots: false,
           infinite: false,
@@ -139,28 +130,13 @@
                 infinite: false,
                 arrows: false,
                 autoplay: true,
-                autoplaySpeed: 1500,
+                autoplaySpeed: 2500,
                 slidesToShow: 1,
                 slidesToScroll: 1,
               },
             },
           ],
         });
-
-        // Button Navbar
-        $('.btn-show').click(function () {
-          $(".btn-show").hide()
-          $(".btn-hide").show()
-          $('.nav-items').css('left', '0')
-          $('#myNav').addClass('add-border')
-        })
-
-        $('.btn-hide').click(function () {
-          $(".btn-hide").hide()
-          $(".btn-show").show()
-          $('.nav-items').css('left', '-100%')
-          $('#myNav').removeClass('add-border')
-        })
       });
     </script>
   </body>
