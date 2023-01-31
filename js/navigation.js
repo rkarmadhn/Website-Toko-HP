@@ -1,24 +1,21 @@
-const navbarLight = `<div class="container">
-    <div class="navbar-logo">
-    <a href="index.html" class="text-logo">RC</a>
-    </div>
-    <div class="nav-items">
-      <a href="http://" class="nav-links">Home</a>
-      <a href="http://" class="nav-links">Tentang Kami</a>
-      <a href="http://" class="nav-links">Location</a>
-      <a href="http://" class="nav-links">Contact Us</a>
-    </div>
-    <div class="navbar-button">
-    <button type="button" class="btn-show"><i class="fa-solid fa-bars-staggered"></i></button>
-    <button type="button" class="btn-hide"><i class="fa-solid fa-xmark"></i></button>
-    </div>
-  </div>`;
-
-document.querySelector("#myNav").innerHTML = navbarLight;
+document.querySelector("#myNav").innerHTML = `<div class="container">
+<div class="navbar-logo">
+<a href="index.html" class="text-logo">RC</a>
+</div>
+<div class="nav-items">
+  <a href="index.html" class="nav-links">Home</a>
+  <a href="tentang-kami.html" class="nav-links">Tentang Kami</a>
+  <a href="http://" class="nav-links">Location</a>
+  <a href="http://" class="nav-links">Contact Us</a>
+</div>
+<div class="navbar-button">
+<button type="button" class="btn-show"><i class="fa-solid fa-bars-staggered"></i></button>
+<button type="button" class="btn-hide"><i class="fa-solid fa-xmark"></i></button>
+</div>
+</div>`;
 
 let scrollPosition = 0;
 let width = screen.width;
-
 window.addEventListener("scroll", function () {
   if (width > 575.98) {
     if (scrollPosition > this.scrollY) {
