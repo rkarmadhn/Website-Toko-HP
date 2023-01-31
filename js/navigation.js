@@ -41,3 +41,6 @@ $(".btn-hide").click(function () {
   $(".nav-items").css("left", "-100%");
   $("#myNav").removeClass("add-border");
 });
+
+// Footer
+document.querySelector('.footer').innerHTML = `<p>&copy; 2023 Rakha Cellular.</p>`;
