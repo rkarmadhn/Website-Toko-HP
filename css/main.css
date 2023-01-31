@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&family=Press+Start+2P&display=swap");
+body {
+  font-family: "Inter Tight", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body h1,
+body h2,
+body h3 {
+  font-size: bold;
+  color: #fff;
+}
+body a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+body a:hover {
+  color: gold;
+}
+body button {
+  background-color: transparent;
+  border: none;
+  transition: all 0.5s;
+}
+
+.text-logo {
+  font-size: 2rem;
+  font-family: "Press Start 2P";
+  color: #212121;
+}
+
+.hide {
+  display: none !important;
+}
+
+.footer {
+  background-color: #212121;
+  color: #fff;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #fff;
+}
+.footer p {
+  margin: 0;
+}
+
+.banner {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-text h1 {
+  font-weight: 900;
+  text-align: center;
+}
+
+.banner .banner-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .banner-text h1 {
+  text-align: center;
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  .banner {
+    height: 60vh;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .banner {
+    height: 100vh;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 0.5rem 0;
+  background-color: #fff;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
+  z-index: 90000;
+}
+nav * {
+  color: #212121 !important;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .btn-show,
+.btn-hide {
+    font-size: 2rem;
+    transition: all 0.5s;
+  }
+  .btn-hide {
+    display: none;
+  }
+  .add-border {
+    border-bottom: 1px solid #212121;
+  }
+  .nav-items {
+    position: fixed;
+    top: 66.5px;
+    left: -100%;
+    width: 100vw;
+    height: 100vh;
+    display: block !important;
+    padding: 8px 12px;
+    background-color: #fff;
+    padding: 10px 20px 20px 20px;
+    transition: all 0.5s;
+  }
+  .nav-items .nav-links {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    color: #212121;
+    border-bottom: 1px solid #212121;
+    padding: 15px 0;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .navbar-button {
+    display: none;
+  }
+  .nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}/*# sourceMappingURL=main.css.map */

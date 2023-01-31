@@ -1,0 +1,110 @@
+// Variables
+$color-dark: #212121;
+$color-light: #fff;
+
+body {
+  font-family: "Inter Tight", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  h1,
+  h2,
+  h3 {
+    font-size: bold;
+    color: #fff;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  a:hover {
+    color: gold;
+  }
+  button {
+    background-color: transparent;
+    border: none;
+    transition: all 0.5s;
+  }
+}
+.text-logo {
+  font-size: 2rem;
+  font-family: "Press Start 2P";
+  color: #212121;
+}
+.hide {
+  display: none !important;
+}
+.footer {
+  background-color: #212121;
+  color: #fff;
+  padding: 1rem 0;
+  @include flex-box(center, center);
+  border-top: 1px solid #fff;
+  p {
+    margin: 0;
+  }
+}
+
+// Banner
+.banner {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-text {
+  @include flex-box(center, center);
+  h1 {
+    font-weight: 900;
+    text-align: center;
+  }
+}
+.banner {
+  .banner-text {
+    @include flex-box(center, center);
+    h1 {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  // Banner
+  .banner {
+    height: 60vh;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  // Banner
+  .banner {
+    height: 100vh;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
