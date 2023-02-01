@@ -43,4 +43,4 @@ $(".btn-hide").click(function () {
 });
 
 // Footer
-document.querySelector('.footer').innerHTML = `<p>&copy; 2023 Rakha Cellular.</p>`;
+document.querySelector(".footer").innerHTML = `<p>&copy; 2023 Rakha Cellular.</p>`;
