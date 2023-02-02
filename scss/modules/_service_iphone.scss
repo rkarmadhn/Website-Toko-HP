@@ -1,40 +1,41 @@
 @import "mixin";
 
 .card-price-section {
-  .banner-text {
-    .wrap {
-      h2 {
-        color: #212121;
-      }
+  background-color: #e8e8e8;
+  position: relative;
+  .head-title {
+    h2 {
+      color: #212121;
     }
   }
   .overflow-sleep {
     padding: 1.5rem 0;
     overflow-x: scroll;
-  }
-}
-.row-card-section {
-  width: fit-content;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  .card {
-    border-radius: 1rem 1rem 0 0;
-    .card-images {
-      text-align: center;
-      padding: 1rem;
-    }
-    .card-body {
-      border-top: 1px solid rgba($color: #000000, $alpha: 0.5);
-      border-radius: 1rem 1rem 0 0;
-      .wrap {
-        @include flex-box(space-between, center);
-        margin: 0.5rem;
-        border-bottom: 1px solid rgba($color: #000000, $alpha: 0.5);
-        padding: 0.5rem 0;
-        * {
-          margin: 0;
-          color: #212121;
+    .row-card-section {
+      width: fit-content;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      .card {
+        border-radius: 1rem 1rem 0 0;
+        animation: fades 1s ease;
+        .card-images {
+          text-align: center;
+          padding: 1rem;
+        }
+        .card-body {
+          border-top: 1px solid rgba($color: #000000, $alpha: 0.5);
+          border-radius: 1rem 1rem 0 0;
+          .wrap {
+            @include flex-box(space-between, center);
+            margin: 0.5rem;
+            border-bottom: 1px solid rgba($color: #000000, $alpha: 0.5);
+            padding: 0.5rem 0;
+            * {
+              margin: 0;
+              color: #212121;
+            }
+          }
         }
       }
     }
@@ -45,7 +46,8 @@
 @media (max-width: 575.98px) {
   .card-price-section {
     padding: 4rem 0;
-    .banner-text {
+    .head-title {
+      display: block;
       padding: 1rem 0;
     }
     .card {
@@ -65,7 +67,7 @@
 @media (min-width: 576px) {
   .card-price-section {
     padding: 4rem 0;
-    .banner-text {
+    .head-title {
       padding: 0.5rem 0;
       h2 {
         margin: 0;
@@ -84,13 +86,28 @@
   }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (max-width: 991.98px) {
+  .card-price-section {
+    position: relative;
+    .dropdown {
+      background-color: #fff;
+      position: fixed;
+      top: 72.5px;
+      left: 0;
+      z-index: 1020;
+      transition: all 0.5s;
+      border-radius: 0 1rem 1rem 0;
+      box-shadow: 0 0.125rem 0.25rem rgba($color: #000000, $alpha: 0.3);
+    }
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .card-price-section {
+    .head-title {
+      @include flex-box(space-between, center);
+    }
     .card {
       width: 400px;
       height: 490px;
@@ -103,5 +120,14 @@
         }
       }
     }
+  }
+}
+
+@keyframes fades {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

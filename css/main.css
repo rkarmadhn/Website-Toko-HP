@@ -2,7 +2,7 @@
 body {
   font-family: "Inter Tight", sans-serif;
   box-sizing: border-box;
-  scroll-behavior: smooth;
+  animation: fade 1s ease;
 }
 body h1,
 body h2,
@@ -46,6 +46,37 @@ body button {
 }
 .footer p {
   margin: 0;
+}
+
+.btn-uiverse-io {
+  align-items: center;
+  background-color: transparent;
+  color: #212121;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0;
+  border: 0;
+  padding: 1rem;
+}
+
+.btn-uiverse-io:before {
+  background-color: #212121;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin-right: 10px;
+  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 0;
+}
+
+.focus.btn-uiverse-io:focus:before {
+  background-color: #212121;
+  width: 3rem;
 }
 
 .banner {
@@ -107,6 +138,14 @@ body button {
   }
 }
 /* Large devices (desktops, 992px and up) */
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 nav {
   width: 100%;
   position: fixed;
