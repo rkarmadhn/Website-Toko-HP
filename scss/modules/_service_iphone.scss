@@ -1,19 +1,16 @@
 @import "mixin";
 
 .card-price-section {
-  .container {
-    padding: 1rem 0.5rem;
+  .banner-text {
+    .wrap {
+      h2 {
+        color: #212121;
+      }
+    }
   }
   .overflow-sleep {
     padding: 1.5rem 0;
     overflow-x: scroll;
-  }
-}
-.banner-text {
-  .wrap {
-    h2 {
-      color: #212121;
-    }
   }
 }
 .row-card-section {
@@ -21,29 +18,24 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-}
-.card {
-  height: auto;
-  border-radius: 1rem 1rem 0 0;
-  .card-images {
-    padding: 1rem;
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  }
-  .card-body {
-    border-top: 1px solid rgba($color: #000000, $alpha: 0.5);
+  .card {
     border-radius: 1rem 1rem 0 0;
-    .wrap {
-      @include flex-box(space-between, center);
-      margin: 0.5rem;
-      border-bottom: 1px solid rgba($color: #000000, $alpha: 0.5);
-      padding: .5rem 0;
-      * {
-        margin: 0;
-        color: #212121;
+    .card-images {
+      text-align: center;
+      padding: 1rem;
+    }
+    .card-body {
+      border-top: 1px solid rgba($color: #000000, $alpha: 0.5);
+      border-radius: 1rem 1rem 0 0;
+      .wrap {
+        @include flex-box(space-between, center);
+        margin: 0.5rem;
+        border-bottom: 1px solid rgba($color: #000000, $alpha: 0.5);
+        padding: 0.5rem 0;
+        * {
+          margin: 0;
+          color: #212121;
+        }
       }
     }
   }
@@ -53,9 +45,18 @@
 @media (max-width: 575.98px) {
   .card-price-section {
     padding: 4rem 0;
+    .banner-text {
+      padding: 1rem 0;
+    }
     .card {
       width: 300px;
-      height: auto;
+      height: 415px;
+      .card-images {
+        img {
+          max-width: 265px;
+          max-height: 195px;
+        }
+      }
     }
   }
 }
@@ -63,10 +64,22 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .card-price-section {
-    padding: 5rem 0;
+    padding: 4rem 0;
+    .banner-text {
+      padding: 0.5rem 0;
+      h2 {
+        margin: 0;
+      }
+    }
     .card {
       width: 350px;
-      height: auto;
+      height: 425px;
+      .card-images {
+        img {
+          max-width: 315px;
+          max-height: 210px;
+        }
+      }
     }
   }
 }
@@ -77,8 +90,18 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .card {
-    width: 400px;
-    height: auto;
+  .card-price-section {
+    .card {
+      width: 400px;
+      height: 490px;
+      .card-images {
+        width: 100%;
+        height: 100%;
+        img {
+          max-width: 368px;
+          max-height: 270px;
+        }
+      }
+    }
   }
 }
