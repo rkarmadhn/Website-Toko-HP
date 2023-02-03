@@ -90,6 +90,7 @@
 @media (max-width: 991.98px) {
   .card-price-section {
     position: relative;
+    @include flex-box(center, center);
     .head-title {
       h2 {
         text-align: center;
@@ -108,7 +109,7 @@
         }
       }
     }
-    .btn-group{
+    .btn-group {
       display: none;
     }
   }
