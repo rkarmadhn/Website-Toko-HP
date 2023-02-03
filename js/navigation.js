@@ -1,3 +1,4 @@
+// Output Navigation
 document.querySelector("#myNav").innerHTML = `<div class="container">
 <div class="navbar-logo">
 <a href="index.html" class="text-logo">RC</a>
@@ -14,8 +15,12 @@ document.querySelector("#myNav").innerHTML = `<div class="container">
 </div>
 </div>`;
 
+// Animasi di Nav
+// Posisi Scroll
 let scrollPosition = 0;
+// Ukuran Lebar layar 
 let width = screen.width;
+// Event scroll Pada window
 window.addEventListener("scroll", function () {
   if (width > 575.98) {
     if (scrollPosition > this.scrollY) {

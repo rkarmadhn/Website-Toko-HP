@@ -1,41 +1,71 @@
 @import "mixin";
 
-.card-price-section {
-  background-color: #e8e8e8;
-  min-height: 100vh;
-  position: relative;
-  .head-title {
-    h2 {
-      color: #212121;
-    }
+@media (max-width: 575.98px) {
+  .desktop-view {
+    display: none;
   }
-  .overflow-sleep {
-    padding: 1.5rem 0;
-    overflow-x: scroll;
-    .row-card-section {
-      width: max-content;
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      .card {
-        border-radius: 1rem 1rem 0 0;
-        animation: fades 1s ease;
-        .card-images {
-          text-align: center;
-          padding: 1rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .mobile-view {
+    display: none;
+  }
+  main {
+    padding-top: 5rem;
+    min-height: 100vh;
+    .side-menu {
+      padding: 0.5rem;
+      border-radius: 0 1rem 1rem 0;
+      * {
+        color: #212121;
+        margin: 0;
+      }
+      .wrapper-side-menu {
+        border-bottom: 1px solid #eaeaea;
+        .wrap {
+          @include flex-box(space-between, center);
+          cursor: pointer;
+          padding: 1rem 0;
         }
-        .card-body {
-          border-top: 1px solid rgba($color: #000000, $alpha: 0.5);
-          border-radius: 1rem 1rem 0 0;
-          .wrap {
-            @include flex-box(space-between, center);
-            margin: 0.5rem;
-            border-bottom: 1px solid rgba($color: #000000, $alpha: 0.5);
-            padding: 0.5rem 0;
-            * {
-              margin: 0;
-              color: #212121;
-            }
+        ul {
+          padding: 0;
+          cursor: pointer;
+          li {
+            padding: 0.25rem 0;
+            border-bottom: 1px solid #eaeaea;
+            list-style: none;
+            transition: all 0.75s;
+          }
+          li:hover {
+            background-color: #f2f2fe;
+          }
+        }
+      }
+    }
+    .card {
+      margin: 0.5rem 0;
+      border: 1px solid #f2f2fe;
+      border-radius: 1rem;
+      box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
+      animation: fades .5s ease-in;
+      .card-images {
+        padding: 1rem;
+        img {
+          min-height: 184.99px;
+          max-height: 185px;
+        }
+      }
+      .card-text {
+        padding: 1rem;
+        border-top: 1px solid #cbcbd3;
+        border-radius: 1rem 1rem 0 0;
+        .wrap {
+          @include flex-box(space-between, center);
+          border-bottom: 1px solid #212121;
+          * {
+            color: #212121;
+            margin: 0.5rem 0;
           }
         }
       }
@@ -43,110 +73,26 @@
   }
 }
 
-/* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-  .card-price-section {
-    padding: 4rem 0;
-    .head-title {
-      display: block;
-      padding: 1rem 0;
-    }
-    .card {
-      width: 300px;
-      height: 415px;
-      .card-images {
-        img {
-          max-width: 265px;
-          max-height: 195px;
-        }
-      }
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .card-images {
+    img {
+      object-fit: contain;
     }
   }
 }
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  .card-price-section {
-    padding: 4rem 0;
-    .head-title {
-      padding: 0.5rem 0;
-      h2 {
-        margin: 0;
-      }
-    }
-    .card {
-      width: 350px;
-      height: 425px;
-      .card-images {
-        img {
-          max-width: 315px;
-          max-height: 210px;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 991.98px) {
-  .card-price-section {
-    position: relative;
-    @include flex-box(center, center);
-    .head-title {
-      h2 {
-        text-align: center;
-      }
-      .dropdown {
-        background-color: #fff;
-        z-index: 1020;
-        margin: 1rem 0;
-        transition: all 0.5s;
-        border-radius: 0 1rem 1rem 0;
-        box-shadow: 0 0.125rem 0.25rem rgba($color: #000000, $alpha: 0.3);
-        .btn-uiverse-io {
-          padding: 0.5rem;
-        }
-      }
-    }
-    .btn-group {
-      display: none;
-    }
-  }
-}
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .card-price-section {
-    .head-title {
-      @include flex-box(space-between, center);
-    }
-    .btn-group {
-      @include flex-box(space-between, center);
-      .prev-next-btn {
-        font-size: 18px;
-        text-decoration: underline;
-        color: #212121;
-      }
-    }
-    .card {
-      width: 400px;
-      height: 490px;
-      .card-images {
-        width: 100%;
-        height: 100%;
-        img {
-          max-width: 368px;
-          max-height: 270px;
-        }
-      }
-    }
+  .col-lg-9{
+    border-left: 1px solid #eaeaea;
   }
 }
 
 @keyframes fades {
-  0% {
+  0%{
     opacity: 0;
   }
-  100% {
+  100%{
     opacity: 1;
   }
 }
