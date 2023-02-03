@@ -97,10 +97,8 @@
       }
       .dropdown {
         background-color: #fff;
-        position: fixed;
-        top: 17.5%;
-        left: 0;
         z-index: 1020;
+        margin: 1rem 0;
         transition: all 0.5s;
         border-radius: 0 1rem 1rem 0;
         box-shadow: 0 0.125rem 0.25rem rgba($color: #000000, $alpha: 0.3);
