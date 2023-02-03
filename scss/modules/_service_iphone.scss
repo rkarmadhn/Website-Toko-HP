@@ -2,6 +2,7 @@
 
 .card-price-section {
   background-color: #e8e8e8;
+  min-height: 100vh;
   position: relative;
   .head-title {
     h2 {
@@ -12,7 +13,7 @@
     padding: 1.5rem 0;
     overflow-x: scroll;
     .row-card-section {
-      width: fit-content;
+      width: max-content;
       display: flex;
       align-items: center;
       gap: 1rem;
@@ -89,15 +90,26 @@
 @media (max-width: 991.98px) {
   .card-price-section {
     position: relative;
-    .dropdown {
-      background-color: #fff;
-      position: fixed;
-      top: 72.5px;
-      left: 0;
-      z-index: 1020;
-      transition: all 0.5s;
-      border-radius: 0 1rem 1rem 0;
-      box-shadow: 0 0.125rem 0.25rem rgba($color: #000000, $alpha: 0.3);
+    .head-title {
+      h2 {
+        text-align: center;
+      }
+      .dropdown {
+        background-color: #fff;
+        position: fixed;
+        top: 20%;
+        left: 0;
+        z-index: 1020;
+        transition: all 0.5s;
+        border-radius: 0 1rem 1rem 0;
+        box-shadow: 0 0.125rem 0.25rem rgba($color: #000000, $alpha: 0.3);
+        .btn-uiverse-io {
+          padding: 0.5rem;
+        }
+      }
+    }
+    .btn-group{
+      display: none;
     }
   }
 }
@@ -107,6 +119,14 @@
   .card-price-section {
     .head-title {
       @include flex-box(space-between, center);
+    }
+    .btn-group {
+      @include flex-box(space-between, center);
+      .prev-next-btn {
+        font-size: 18px;
+        text-decoration: underline;
+        color: #212121;
+      }
     }
     .card {
       width: 400px;

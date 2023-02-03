@@ -124,6 +124,33 @@ const loadStock = (stock) => {
       }
     })
     .join("");
+  // Output Berdasarkan Kurang dari Tahun 2020
+  const stocksUnder2020 = stock
+    .map((s) => {
+      if (s.tahun < 2020) {
+        return `<div class="card">
+                    <div class="card-images">
+                      <img src="${s.images}" alt="" />
+                    </div>
+                    <div class="card-body">
+                      <div class="wrap">
+                        <p class="fw-bold">${s.nama_seri}</p>
+                        <p>${s.tahun}</p>
+                      </div>
+                      <div class="wrap">
+                        <p>Harga LCD</p>
+                        <p>Rp. ${s.harga_lcd} ,-</p>
+                      </div>
+                      <div class="wrap">
+                        <p>Harga Baterai</p>
+                        <p>Rp. ${s.harga_baterai} ,-</p>
+                      </div>
+                    </div>
+                  </div>
+              `;
+      }
+    })
+    .join("");
 
   // Button filter 2022
   btn2022.onclick = () => {
@@ -137,9 +164,14 @@ const loadStock = (stock) => {
   btn2020.onclick = () => {
     rowCard.innerHTML = stocks2020;
   };
+  // Button filter 2020
+  document.querySelector('.under-tahun-2020').onclick = () => {
+    rowCard.innerHTML = stocksUnder2020;
+  };
   // Output Default
   rowCard.innerHTML = stocks;
 };
 
 // Return Function Pemanggilan API diatas
 stockIphone();
+

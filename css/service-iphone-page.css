@@ -1,5 +1,6 @@
 .card-price-section {
   background-color: #e8e8e8;
+  min-height: 100vh;
   position: relative;
 }
 .card-price-section .head-title h2 {
@@ -10,7 +11,7 @@
   overflow-x: scroll;
 }
 .card-price-section .overflow-sleep .row-card-section {
-  width: fit-content;
+  width: max-content;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -82,15 +83,24 @@
   .card-price-section {
     position: relative;
   }
-  .card-price-section .dropdown {
+  .card-price-section .head-title h2 {
+    text-align: center;
+  }
+  .card-price-section .head-title .dropdown {
     background-color: #fff;
     position: fixed;
-    top: 72.5px;
+    top: 20%;
     left: 0;
     z-index: 1020;
     transition: all 0.5s;
     border-radius: 0 1rem 1rem 0;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
+  }
+  .card-price-section .head-title .dropdown .btn-uiverse-io {
+    padding: 0.5rem;
+  }
+  .card-price-section .btn-group {
+    display: none;
   }
 }
 /* Large devices (desktops, 992px and up) */
@@ -99,6 +109,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .card-price-section .btn-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-price-section .btn-group .prev-next-btn {
+    font-size: 18px;
+    text-decoration: underline;
+    color: #212121;
   }
   .card-price-section .card {
     width: 400px;
