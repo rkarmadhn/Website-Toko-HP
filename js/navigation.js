@@ -20,11 +20,9 @@ window.addEventListener("scroll", function () {
   if (width > 575.98) {
     if (scrollPosition > this.scrollY) {
       $("#myNav").css("top", "0");
-      $(".dropdown").css("left", "0");
       
     } else {
       $("#myNav").css("top", "-100px");
-      $(".dropdown").css("left", "-150px");
     }
     scrollPosition = this.scrollY;
   }
