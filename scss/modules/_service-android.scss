@@ -1,0 +1,54 @@
+@import "mixin";
+
+.head-text {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 0.5rem 0 0.5rem;
+  h5 {
+    color: #6c757d;
+    padding: 1rem 0;
+    margin: 0;
+  }
+  h5.active {
+    color: rgb(61, 106, 255);
+    border-bottom: 2px solid rgb(61, 106, 255);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .overflow{
+    padding-bottom: .6rem;
+    overflow: scroll;
+    background-color: #eaeaea;
+    .head-text{
+      width: 100vw;
+    }
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .head-text{
+    background-color: #eaeaea;
+    width: 100%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .desktop-view {
+    min-height: 100vh;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+@keyframes fades {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

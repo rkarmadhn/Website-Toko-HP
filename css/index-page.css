@@ -1,13 +1,14 @@
+.col-lg-6 {
+  padding: 0.5rem;
+}
+
 .card {
-  padding: 1rem;
-  background-color: transparent;
   border: none;
   position: relative;
 }
 .card .images-card {
   width: 100%;
   height: 100%;
-  border-radius: 1rem;
 }
 .card .card-floating-text {
   display: flex;
@@ -82,9 +83,16 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   /* Card */
+  .card-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .card-section .banner-text h1 {
     font-size: 3rem;
     padding: 2rem 0;
+    color: #212121;
   }
 }
 /* Medium devices (tablets, 768px and up) */

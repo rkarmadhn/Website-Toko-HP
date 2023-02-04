@@ -1,11 +1,41 @@
+.head-text {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 0.5rem 0 0.5rem;
+}
+.head-text h5 {
+  color: #6c757d;
+  padding: 1rem 0;
+  margin: 0;
+}
+.head-text h5.active {
+  color: rgb(61, 106, 255);
+  border-bottom: 2px solid rgb(61, 106, 255);
+}
+
+@media (max-width: 575.98px) {
+  .overflow {
+    padding-bottom: 0.6rem;
+    overflow: scroll;
+    background-color: #eaeaea;
+  }
+  .overflow .head-text {
+    width: 100vw;
+  }
+}
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  main {
-    padding-top: 5rem;
-    min-height: 100vh;
+  .head-text {
+    background-color: #eaeaea;
+    width: 100%;
   }
 }
 /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .desktop-view {
+    min-height: 100vh;
+  }
+}
 /* Large devices (desktops, 992px and up) */
 @keyframes fades {
   0% {
@@ -109,4 +139,4 @@
   100% {
     opacity: 1;
   }
-}/*# sourceMappingURL=service-iphone-page.css.map */
+}/*# sourceMappingURL=service-android-page.css.map */
