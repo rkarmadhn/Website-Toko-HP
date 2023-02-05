@@ -76,7 +76,7 @@
 @media (min-width: 576px) {
   /* Card */
   .card-section {
-    height: 100vh;
+    min-height: 100vh;
     @include flex-box(center,center);
     .banner-text {
       h1 {
