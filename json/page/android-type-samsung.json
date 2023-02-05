@@ -1,0 +1,558 @@
+{
+  "id": 1,
+  "nama_brand": "Samsung",
+  "samsung": [
+    {
+      "id": 1,
+      "images": "https://images.samsung.com/is/image/samsung/id-galaxy-young-2-g130-sm-g130hzwdxse-000250336-front-white?$330_330_JPG$",
+      "tahun": 2017,
+      "nama_seri": "Galaxy Young 2",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 2,
+      "images": "https://images.samsung.com/is/image/samsung/id-samsung-z2-z200f-sm-z200fzddxid-60779135?$330_330_JPG$",
+      "tahun": 2017,
+      "nama_seri": "Samsung Z2",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 3,
+      "images": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-v-plus-sm-g318-1.jpg",
+      "tahun": 2017,
+      "nama_seri": "Galaxy V Plus",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 4,
+      "images": "https://images.samsung.com/is/image/samsung/id-galaxy-v2-sm-j106-sm-j106bzkdxid-front-black-60935498?$624_624_PNG$",
+      "tahun": 2017,
+      "nama_seri": "Galaxy V2",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 5,
+      "images": "https://images.samsung.com/is/image/samsung/id-galaxy-j1-mini-j105-sm-j105fzddxid-000000001-front-gold?$330_330_JPG$",
+      "tahun": 2017,
+      "nama_seri": "Galaxy J1 Mini",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 6,
+      "images": "https://w7.pngwing.com/pngs/960/416/png-transparent-samsung-galaxy-j1-ace-neo-samsung-galaxy-j2-prime-samsung-gadget-mobile-phone-mobile-phones.png",
+      "tahun": 2017,
+      "nama_seri": "Galaxy J1 Ace",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 7,
+      "images": "https://img2.pngdownload.id/20180411/uke/kisspng-samsung-galaxy-j1-ace-neo-smartphone-telephone-mini-5acdc88eb29c41.2961692115234356627316.jpg",
+      "tahun": 2017,
+      "nama_seri": "Galaxy J1 Ace Neo",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 8,
+      "images": "https://w7.pngwing.com/pngs/502/753/png-transparent-samsung-galaxy-j1-2016-samsung-galaxy-mini-samsung-galaxy-j1-mini-prime-samsung-gadget-mobile-phone-electronic-device.png",
+      "tahun": 2016,
+      "nama_seri": "Galaxy J1",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 9,
+      "images": "https://w7.pngwing.com/pngs/894/751/png-transparent-gold-samsung-android-smartphone-samsung-galaxy-j2-prime-android-telephone-samsung-j2-prime-gadget-computer-mobile-phone-thumbnail.png",
+      "tahun": 2017,
+      "nama_seri": "Galaxy J2 Prime",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 10,
+      "images": "https://img2.pngdownload.id/20190622/ax/kisspng-samsung-galaxy-j3-2-16-samsung-galaxy-j3-j32-samsung-galaxy-j3-8gb-bestmobilenetworks-5d0e9c13b82216.0281151415612385477542.jpg",
+      "tahun": 2017,
+      "nama_seri": "Galaxy J3",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 11,
+      "images": "https://w7.pngwing.com/pngs/678/327/png-transparent-samsung-galaxy-grand-prime-samsung-galaxy-j2-prime-telephone-samsung-gadget-mobile-phone-magenta.png",
+      "tahun": 2017,
+      "nama_seri": "Galaxy Grand Prime",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 12,
+      "images": "https://w7.pngwing.com/pngs/902/49/png-transparent-samsung-galaxy-a5-2016-samsung-galaxy-a5-2017-samsung-galaxy-a3-2016-samsung-galaxy-a7-2015-samsung-galaxy-a3-2017-samsung-gadget-mobile-phone-electronic-device-thumbnail.png",
+      "tahun": 2016,
+      "nama_seri": "Galaxy A3",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 13,
+      "images": "https://w7.pngwing.com/pngs/517/720/png-transparent-samsung-galaxy-j7-2016-samsung-galaxy-j7-pro-samsung-galaxy-j7-prime-2016-samsung-galaxy-on8-samsung-gadget-mobile-phone-mobile-phones.png",
+      "tahun": 2016,
+      "nama_seri": "Galaxy J7",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 14,
+      "images": "https://w7.pngwing.com/pngs/902/49/png-transparent-samsung-galaxy-a5-2016-samsung-galaxy-a5-2017-samsung-galaxy-a3-2016-samsung-galaxy-a7-2015-samsung-galaxy-a3-2017-samsung-gadget-mobile-phone-electronic-device.png",
+      "tahun": 2016,
+      "nama_seri": "Galaxy A5",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 15,
+      "images": "https://img2.pngdownload.id/20180713/col/kisspng-samsung-galaxy-a5-2017-samsung-galaxy-a7-2017-samsung-j7-prime-5b48fc481e8cf9.8044488815315098321252.jpg",
+      "tahun": 2017,
+      "nama_seri": "Galaxy A5",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 16,
+      "images": "https://e7.pngegg.com/pngimages/844/1007/png-clipart-samsung-galaxy-e7-samsung-galaxy-e5-samsung-galaxy-a5-android-samsung-gadget-mobile-phone-thumbnail.png",
+      "tahun": 2017,
+      "nama_seri": "Galaxy E7",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 17,
+      "images": "https://w7.pngwing.com/pngs/622/185/png-transparent-samsung-galaxy-j7-prime-samsung-galaxy-on7-samsung-galaxy-j7-pro-samsung-galaxy-j7-prime-gadget-mobile-phone-mobile-phones.png",
+      "tahun": 2017,
+      "nama_seri": "Galaxy J7 Prime",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 18,
+      "images": "https://w7.pngwing.com/pngs/62/647/png-transparent-samsung-galaxy-a7-2016-samsung-galaxy-a5-2016-samsung-galaxy-a7-2017-samsung-galaxy-a5-2017-samsung-galaxy-a3-2016-samsung-a5-purple-gadget-mobile-phone.png",
+      "tahun": 2016,
+      "nama_seri": "Galaxy A7",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 19,
+      "images": "https://w7.pngwing.com/pngs/521/704/png-transparent-samsung-galaxy-note-ii-samsung-galaxy-note-4-lte-4g-telephone-samsung-handphone-purple-gadget-white-thumbnail.png",
+      "tahun": 2017,
+      "nama_seri": "Galaxy Note 4",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 20,
+      "images": "https://w7.pngwing.com/pngs/426/163/png-transparent-samsung-galaxy-a8-2016-android-touchscreen-samsung-purple-gadget-mobile-phone-thumbnail.png",
+      "tahun": 2016,
+      "nama_seri": "Galaxy A8",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 21,
+      "images": "https://w7.pngwing.com/pngs/348/959/png-transparent-samsung-galaxy-note-5-samsung-galaxy-s7-edge-samsung-galaxy-s6-edge-telephone-phone-repair-gadget-mobile-phone-electronic-device-thumbnail.png",
+      "tahun": 2017,
+      "nama_seri": "Galaxy Note Edge",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 22,
+      "images": "https://e7.pngegg.com/pngimages/198/9/png-clipart-samsung-galaxy-c9-pro-samsung-galaxy-a9-pro-samsung-galaxy-j7-samsung-gadget-mobile-phone-thumbnail.png",
+      "tahun": 2017,
+      "nama_seri": "Galaxy A9 Pro",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 23,
+      "images": "https://w7.pngwing.com/pngs/234/184/png-transparent-samsung-galaxy-note-5-samsung-galaxy-note-edge-samsung-galaxy-s6-edge-samsung-galaxy-s7-edge-gadget-mobile-phone-sports-thumbnail.png",
+      "tahun": 2017,
+      "nama_seri": "Galaxy S6 Edge",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 24,
+      "images": "https://w7.pngwing.com/pngs/234/184/png-transparent-samsung-galaxy-note-5-samsung-galaxy-note-edge-samsung-galaxy-s6-edge-samsung-galaxy-s7-edge-gadget-mobile-phone-sports-thumbnail.png",
+      "tahun": 2017,
+      "nama_seri": "Galaxy S6",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 25,
+      "images": "https://w7.pngwing.com/pngs/660/370/png-transparent-samsung-galaxy-note-5-lte-android-4g-galaxy-purple-gadget-electronics-thumbnail.png",
+      "tahun": 2017,
+      "nama_seri": "Galaxy Note 5",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 26,
+      "images": "https://e7.pngegg.com/pngimages/152/134/png-clipart-samsung-galaxy-s6-edge-samsung-galaxy-s7-edge-smartphone-samsung-gadget-mobile-phone-thumbnail.png",
+      "tahun": 2017,
+      "nama_seri": "Galaxy S7",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 27,
+      "images": "https://e7.pngegg.com/pngimages/462/998/png-clipart-samsung-galaxy-s7-edge-samsung-galaxy-s5-samsung-galaxy-a5-2017-telephone-samsung-gadget-mobile-phone.png",
+      "tahun": 2017,
+      "nama_seri": "Galaxy S7 Edge",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 28,
+      "images": "https://images.samsung.com/is/image/samsung/sa-en_SM-G928CZDAKSA_000000001_Front_gold?$L1-Thumbnail$",
+      "tahun": 2017,
+      "nama_seri": "Galaxy S6 Edge Plus",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 29,
+      "images": "https://www.pngkey.com/png/detail/250-2509864_samsung-galaxy-j6-samsung-galaxy-j6-plus.png",
+      "tahun": 2018,
+      "nama_seri": "Galaxy J6 Plus",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 30,
+      "images": "https://www.pngfind.com/pngs/m/307-3079458_samsung-j4-plus-hd-png-download.png",
+      "tahun": 2018,
+      "nama_seri": "Galaxy J4 Plus",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 31,
+      "images": "https://www.seekpng.com/png/detail/347-3478220_samsung-galaxy-note-9-tempered-glass-screen-protector.png",
+      "tahun": 2018,
+      "nama_seri": "Galaxy Note 9",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 32,
+      "images": "https://www.pngfind.com/pngs/m/506-5062823_samsung-galaxy-j2-core-samsung-j2-core-png.png",
+      "tahun": 2018,
+      "nama_seri": "Galaxy J2 Core",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 33,
+      "images": "https://www.pngkey.com/png/full/386-3865316_samsung-galaxy-j8-2018.png",
+      "tahun": 2018,
+      "nama_seri": "Galaxy J8",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 34,
+      "images": "https://asset-a.grid.id/crop/0x0:0x0/x/photo/2018/06/12/213356710.png",
+      "tahun": 2018,
+      "nama_seri": "Galaxy A8 Star",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 35,
+      "images": "https://img2.pngdownload.id/20190623/gpl/kisspng-samsung-galaxy-j4-samsung-galaxy-j6-2-18-samsun-cellphones-smartphone-2-18-latest-phones-list-5d101c2ac5d993.3803398815613368748104.jpg",
+      "tahun": 2018,
+      "nama_seri": "Galaxy J4",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 36,
+      "images": "https://images.tokopedia.net/img/cache/500-square/product-1/2018/11/25/299593/299593_261a9f98-d61a-448f-9786-4f99f8ea829d_600_600.jpg",
+      "tahun": 2018,
+      "nama_seri": "Galaxy J6",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 37,
+      "images": "https://arenagadget.id/assets/uploads/2019/09/galaxy-j7-duo-1568405586.png",
+      "tahun": 2018,
+      "nama_seri": "Galaxy J7 Duo",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 38,
+      "images": "https://toppng.com/uploads/preview/samsung-galaxy-a6-gold-11563336452lymaobo6sg.png",
+      "tahun": 2018,
+      "nama_seri": "Galaxy A6",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 39,
+      "images": "https://toppng.com/uploads/preview/samsung-galaxy-a6-gold-11563336452lymaobo6sg.png",
+      "tahun": 2018,
+      "nama_seri": "Galaxy A6 Plus",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 40,
+      "images": "https://img2.pngdownload.id/20180615/zfz/kisspng-samsung-galaxy-s9-feature-phone-2018-mobile-world-samsung-s9-5b242529357df5.1990929615290954652191.jpg",
+      "tahun": 2018,
+      "nama_seri": "Galaxy S9",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 41,
+      "images": "https://w7.pngwing.com/pngs/39/302/png-transparent-samsung-galaxy-s8-samsung-galaxy-s9-smartphone-android-s9-plus-electronics-gadget-mobile-phone.png",
+      "tahun": 2018,
+      "nama_seri": "Galaxy S9 Plus",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 42,
+      "images": "https://w7.pngwing.com/pngs/426/163/png-transparent-samsung-galaxy-a8-2016-android-touchscreen-samsung-purple-gadget-mobile-phone.png",
+      "tahun": 2018,
+      "nama_seri": "Galaxy A8",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 43,
+      "images": "https://img2.pngdownload.id/20180719/jv/kisspng-samsung-galaxy-a8-samsung-galaxy-s-plus-android-no-samsung-a8-5b50d198608534.2323592915320231923954.jpg",
+      "tahun": 2018,
+      "nama_seri": "Galaxy A8 Plus",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 44,
+      "images": "https://w7.pngwing.com/pngs/175/514/png-transparent-samsung-galaxy-grand-prime-plus-samsung-galaxy-j2-pro-2018-android-samsung-gadget-mobile-phone-magenta.png",
+      "tahun": 2018,
+      "nama_seri": "Galaxy J2 Pro",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 45,
+      "images": "https://www.bursahpsamsung.com/wp-content/uploads/2019/03/samsung-galaxy-m10.png",
+      "tahun": 2019,
+      "nama_seri": "Galaxy M10",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 46,
+      "images": "https://www.notebookcheck.net/fileadmin/_processed_/5/b/csm_4_zu_3_Samsung_Galasy_M30s_bdb66ab84a.jpg",
+      "tahun": 2019,
+      "nama_seri": "Galaxy M30s",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 47,
+      "images": "https://asset.kompas.com/crops/gdpfcSf5ONw17S6JgUZcZEmGykU=/7x7:701x470/750x500/data/photo/2019/09/18/5d823a36b9f4b.png",
+      "tahun": 2019,
+      "nama_seri": "Galaxy A10s",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 48,
+      "images": "https://www.pngitem.com/pimgs/m/518-5185510_harga-samsung-galaxy-a20-hd-png-download.png",
+      "tahun": 2019,
+      "nama_seri": "Galaxy A20s",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 49,
+      "images": "https://www.begawei.com/wp-content/uploads/2019/08/samsung-galaxy-a30s-F.png",
+      "tahun": 2019,
+      "nama_seri": "Galaxy A30s",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 50,
+      "images": "https://toppng.com//public/uploads/preview/samsung-galaxy-a50-samsung-galaxy-a50-2019-11562961823yplum8mlj9.png",
+      "tahun": 2019,
+      "nama_seri": "Galaxy A50s",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 51,
+      "images": "https://media.game.es/COVERV2/3D_L/174/174451.png",
+      "tahun": 2019,
+      "nama_seri": "Galaxy A70",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 52,
+      "images": "https://www.rejodadi.co.id/file/catalog/large/376-samsung-a80-silver.jpg",
+      "tahun": 2019,
+      "nama_seri": "Galaxy A80",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 53,
+      "images": "https://bisatau.com/wp-content/uploads/2019/02/Samsung-Galaxy-A7-2018.png",
+      "tahun": 2018,
+      "nama_seri": "Galaxy A7",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 54,
+      "images": "https://images.samsung.com/is/image/samsung/id-galaxy-s9-sm-g960-sm-g960fzpdxid-frontpurple-94341261?$624_624_PNG$",
+      "tahun": 2019,
+      "nama_seri": "Galaxy S9",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 55,
+      "images": "https://stg-images.samsung.com/is/image/samsung/assets/id/explore/entertainment/samsung-s10-series-specs-features-revisit/id-galaxy-s10-sm-g975-sm-g975fzgdxid-frontbackprismgreen_886x554.jpg?$FB_TYPE_J_F_MO_JPG$",
+      "tahun": 2019,
+      "nama_seri": "Galaxy S10e",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 56,
+      "images": "https://stg-images.samsung.com/is/image/samsung/assets/id/explore/entertainment/samsung-s10-series-specs-features-revisit/id-galaxy-s10-sm-g975-sm-g975fzgdxid-frontbackprismgreen_886x554.jpg?$FB_TYPE_J_F_MO_JPG$",
+      "tahun": 2019,
+      "nama_seri": "Galaxy S10",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 57,
+      "images": "https://images.samsung.com/is/image/samsung/assets/id/images/buying-page-flagship/galaxy-s20fe/mob-SM-G780GZWHXID.png",
+      "tahun": 2020,
+      "nama_seri": "Galaxy S20",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 58,
+      "images": "https://images.samsung.com/is/image/samsung/assets/id/images/buying-page-flagship/galaxy-s20fe/mob-SM-G780GZWHXID.png",
+      "tahun": 2020,
+      "nama_seri": "Galaxy S20 Plus",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 59,
+      "images": "https://images.samsung.com/is/image/samsung/assets/id/images/buying-page-flagship/galaxy-s20fe/mob-SM-G780GZWHXID.png",
+      "tahun": 2020,
+      "nama_seri": "Galaxy S20 Ultra",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 60,
+      "images": "https://id-test-11.slatic.net/p/e80059de21fc604c530a1f7e02ba9c4b.png",
+      "tahun": 2020,
+      "nama_seri": "Galaxy A01",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 61,
+      "images": "https://images.samsung.com/is/image/samsung/id-galaxy-m31-m315-sm-m315fzbgxid-frontblue-thumb-216251069",
+      "tahun": 2020,
+      "nama_seri": "Galaxy M31",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 62,
+      "images": "https://images.samsung.com/is/image/samsung/my-galaxy-a31-a315-sm-a315gzwwxme-front-246019780?$650_519_PNG$",
+      "tahun": 2020,
+      "nama_seri": "Galaxy A31",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 63,
+      "images": "https://images.samsung.com/is/image/samsung/id-galaxy-m11-m115-sm-m115fmbdxid-frontblue-thumb-242939065",
+      "tahun": 2020,
+      "nama_seri": "Galaxy M11",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 64,
+      "images": "https://images.samsung.com/is/image/samsung/id-galaxy-m21-m215-sm-m215fzbdxid-frontblue-thumb-221069560",
+      "tahun": 2020,
+      "nama_seri": "Galaxy M21",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 65,
+      "images": "https://images.samsung.com/is/image/samsung/p5/id/shop/offer/mobile/2020/05/m21/SM-M215FZBDXID_Thumb.png?$ORIGIN_PNG$",
+      "tahun": 2020,
+      "nama_seri": "Galaxy A11",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 66,
+      "images": "https://images.samsung.com/is/image/samsung/assets/id/offer/2020/11/flash-sale/a21-blue.png?$FB_TYPE_J_F_MO_PNG$",
+      "tahun": 2020,
+      "nama_seri": "Galaxy A21s",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 67,
+      "images": "https://images.samsung.com/is/image/samsung/p6pim/id/galaxy-s21/gallery/id-galaxy-s21-5g-g991-371107-sm-g991bzvgxid-368338135",
+      "tahun": 2021,
+      "nama_seri": "Galaxy S21",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 68,
+      "images": "https://images.samsung.com/is/image/samsung/p6pim/id/galaxy-s21/gallery/id-galaxy-s21-5g-g991-371107-sm-g991bzigxid-368338097",
+      "tahun": 2021,
+      "nama_seri": "Galaxy S21 Plus",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    },
+    {
+      "id": 69,
+      "images": "https://images.samsung.com/is/image/samsung/p6pim/id/galaxy-s21/gallery/id-galaxy-s21-5g-g991-371107-sm-g991bzigxid-368338097",
+      "tahun": 2021,
+      "nama_seri": "Galaxy S21 Ultra",
+      "harga_lcd": 325000,
+      "harga_baterai": 175000
+    }
+  ]
+}

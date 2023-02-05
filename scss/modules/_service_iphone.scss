@@ -1,6 +1,9 @@
 @import "mixin";
 
 @media (max-width: 575.98px) {
+  main{
+    padding-top: 5rem;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */

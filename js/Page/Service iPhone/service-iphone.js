@@ -22,17 +22,17 @@ const loadStock = (stock) => {
   // Output Default
   const stockDefault = stock
     .map((s) => {
-      return `<div class="col-lg-4 col-md-4 col-sm-6">
+      return `<div class="col-lg-4 col-md-6 col-sm-6 col-6">
       <div class="card">
         <div class="card-images">
           <img src="${s.images}" alt="" class="w-100" />
         </div>
         <div class="card-text">
           <div class="group">
-            <p class="m-0">${typeIphone.nama_brand}</p>
-            <div class="wrap">
-              <p class="fw-bold">${s.nama_seri}</p>
-              <p>${s.tahun}</p>
+            <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
+            <div class="wrap row">
+              <p class="col-lg-6 col-sm-12 fw-bold">${s.nama_seri}</p>
+              <p class="col-lg-6 col-sm-12">${s.tahun}</p>
             </div>
           </div>
           <div class="wrap">
@@ -60,7 +60,7 @@ const loadStock = (stock) => {
         </div>
         <div class="card-text">
           <div class="group">
-            <p class="m-0">${typeIphone.nama_brand}</p>
+            <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
             <div class="wrap">
               <p class="fw-bold">${s.nama_seri}</p>
               <p>${s.tahun}</p>
@@ -91,7 +91,7 @@ const loadStock = (stock) => {
           </div>
           <div class="card-text">
             <div class="group">
-              <p class="m-0">${typeIphone.nama_brand}</p>
+              <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
               <div class="wrap">
                 <p class="fw-bold">${s.nama_seri}</p>
                 <p>${s.tahun}</p>
@@ -122,7 +122,7 @@ const loadStock = (stock) => {
         </div>
         <div class="card-text">
           <div class="group">
-            <p class="m-0">${typeIphone.nama_brand}</p>
+            <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
             <div class="wrap">
               <p class="fw-bold">${s.nama_seri}</p>
               <p>${s.tahun}</p>
@@ -153,7 +153,7 @@ const loadStock = (stock) => {
         </div>
         <div class="card-text">
           <div class="group">
-            <p class="m-0">${typeIphone.nama_brand}</p>
+            <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
             <div class="wrap">
               <p class="fw-bold">${s.nama_seri}</p>
               <p>${s.tahun}</p>
@@ -184,7 +184,7 @@ const loadStock = (stock) => {
         </div>
         <div class="card-text">
           <div class="group">
-            <p class="m-0">${typeIphone.nama_brand}</p>
+            <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
             <div class="wrap">
               <p class="fw-bold">${s.nama_seri}</p>
               <p>${s.tahun}</p>
@@ -215,7 +215,7 @@ const loadStock = (stock) => {
         </div>
         <div class="card-text">
           <div class="group">
-            <p class="m-0">${typeIphone.nama_brand}</p>
+            <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
             <div class="wrap">
               <p class="fw-bold">${s.nama_seri}</p>
               <p>${s.tahun}</p>
@@ -246,7 +246,7 @@ const loadStock = (stock) => {
         </div>
         <div class="card-text">
           <div class="group">
-            <p class="m-0">${typeIphone.nama_brand}</p>
+            <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
             <div class="wrap">
               <p class="fw-bold">${s.nama_seri}</p>
               <p>${s.tahun}</p>

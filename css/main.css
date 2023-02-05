@@ -42,7 +42,6 @@ body button {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid #fff;
 }
 .footer p {
   margin: 0;
@@ -157,7 +156,7 @@ nav {
   z-index: 90000;
 }
 nav * {
-  color: #212121 !important;
+  color: #888 !important;
 }
 nav .container {
   display: flex;

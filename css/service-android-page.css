@@ -1,12 +1,17 @@
+main {
+  padding-top: 4rem;
+}
+
 .head-text {
   display: flex;
   gap: 2rem;
-  padding: 4rem 0.5rem 0 0.5rem;
+  padding: 0 1rem;
 }
 .head-text h5 {
   color: #6c757d;
   padding: 1rem 0;
   margin: 0;
+  cursor: pointer;
 }
 .head-text h5.active {
   color: rgb(61, 106, 255);
@@ -45,79 +50,93 @@
     opacity: 1;
   }
 }
+main .side-menu {
+  padding: 0.5rem;
+  border-radius: 0 1rem 1rem 0;
+}
+main .side-menu * {
+  color: #212121;
+  margin: 0;
+}
+main .side-menu .wrapper-side-menu {
+  border-bottom: 1px solid #eaeaea;
+}
+main .side-menu .wrapper-side-menu .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 1rem 0;
+}
+main .side-menu .wrapper-side-menu ul {
+  padding: 0;
+  cursor: pointer;
+}
+main .side-menu .wrapper-side-menu ul li {
+  color: #6c757d !important;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #eaeaea;
+  list-style: none;
+  transition: all 0.75s;
+}
+main .side-menu .wrapper-side-menu ul li:hover {
+  background-color: #f2f2fe;
+}
+main .card {
+  margin: 0.5rem 0;
+  animation: fades 0.5s ease-in;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+main .card .card-text {
+  border-radius: 1rem 1rem 0 0;
+}
+main .card .card-text .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .card .card-text .wrap * {
+  color: #212121;
+  margin: 0.5rem 0;
+}
+
 @media (max-width: 575.98px) {
-  .desktop-view {
-    display: none;
+  .container-fluid {
+    padding: 0 0.5rem;
+  }
+  .container-fluid .col-6 {
+    padding: 0.5rem;
+  }
+  .container-fluid .col-6 .card {
+    border: none;
+  }
+  .container-fluid .col-6 .card .card-images {
+    padding: 0.5rem;
+  }
+  .container-fluid .col-6 .card .card-text {
+    padding: 0.5rem;
   }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .mobile-view {
-    display: none;
-  }
-  main .side-menu {
-    padding: 0.5rem;
-    border-radius: 0 1rem 1rem 0;
-  }
-  main .side-menu * {
-    color: #212121;
-    margin: 0;
-  }
-  main .side-menu .wrapper-side-menu {
-    border-bottom: 1px solid #eaeaea;
-  }
-  main .side-menu .wrapper-side-menu .wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    padding: 1rem 0;
-  }
-  main .side-menu .wrapper-side-menu ul {
-    padding: 0;
-    cursor: pointer;
-  }
-  main .side-menu .wrapper-side-menu ul li {
-    color: #6c757d !important;
-    padding: 0.25rem 0;
-    border-bottom: 1px solid #eaeaea;
-    list-style: none;
-    transition: all 0.75s;
-  }
-  main .side-menu .wrapper-side-menu ul li:hover {
-    background-color: #f2f2fe;
-  }
-  main .card {
-    margin: 0.5rem 0;
+  .card {
     border: 1px solid #f2f2fe;
     border-radius: 1rem;
     box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
-    animation: fades 0.5s ease-in;
-    transition: all 0.5s;
   }
-  main .card .card-images {
+  .card .card-images {
     padding: 1rem;
   }
-  main .card .card-images img {
+  .card .card-images img {
     min-height: 184.99px;
     max-height: 185px;
   }
-  main .card .card-text {
+  .card .card-text {
     padding: 1rem;
-    border-radius: 1rem 1rem 0 0;
   }
-  main .card .card-text .wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  .card .card-text .wrap {
     border-bottom: 1px solid #212121;
-  }
-  main .card .card-text .wrap * {
-    color: #212121;
-    margin: 0.5rem 0;
-  }
-  main .card:hover {
-    box-shadow: 0 0 0.75rem 0.5rem rgba(0, 0, 0, 0.25);
   }
 }
 /* Medium devices (tablets, 768px and up) */
@@ -125,10 +144,15 @@
   .card-images img {
     object-fit: contain;
   }
+  .card:hover {
+    transform: scale(0.9);
+    box-shadow: 0 0 0.75rem 0.5rem rgba(0, 0, 0, 0.25);
+  }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .col-lg-9 {
+    padding: 0 1.5rem;
     border-left: 1px solid #eaeaea;
   }
 }
