@@ -1,8 +1,9 @@
 @import "mixin";
 
-main{
-  padding-top: 4rem;
+.desktop-view{
+  margin-top: 8rem;
 }
+
 .head-text {
   display: flex;
   gap: 2rem;
@@ -24,8 +25,12 @@ main{
     padding-bottom: .6rem;
     overflow: scroll;
     background-color: #eaeaea;
+    position: fixed;
+    width: 100%;
+    top: 65px;
+    z-index: 1020;
     .head-text{
-      width: 100vw;
+      width: max-content;
     }
   }
 }
@@ -36,6 +41,18 @@ main{
     background-color: #eaeaea;
     width: 100%;
   }
+  .overflow{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9000;
+    box-shadow: 0 .150rem .25rem rgba($color: #000, $alpha: 0.3);
+    transition: all .5s;
+    .head-text{
+      padding-top: 65px;
+    }
+  }
+
 }
 
 /* Medium devices (tablets, 768px and up) */

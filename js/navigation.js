@@ -18,16 +18,17 @@ document.querySelector("#myNav").innerHTML = `<div class="container">
 // Animasi di Nav
 // Posisi Scroll
 let scrollPosition = 0;
-// Ukuran Lebar layar 
+// Ukuran Lebar layar
 let width = screen.width;
 // Event scroll Pada window
 window.addEventListener("scroll", function () {
   if (width > 575.98) {
     if (scrollPosition > this.scrollY) {
       $("#myNav").css("top", "0");
-      
+      $(".overflow").css("top", "0")
     } else {
       $("#myNav").css("top", "-100px");
+      $(".overflow").css("top", "-125px")
     }
     scrollPosition = this.scrollY;
   }
