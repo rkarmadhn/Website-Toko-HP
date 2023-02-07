@@ -8,10 +8,8 @@ body h1,
 body h2,
 body h3 {
   font-size: bold;
-  color: #fff;
 }
 body a {
-  color: #fff;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.5s;
@@ -28,7 +26,6 @@ body button {
 .text-logo {
   font-size: 2rem;
   font-family: "Press Start 2P";
-  color: #212121;
 }
 
 .hide {
@@ -90,28 +87,53 @@ body button {
   justify-content: center;
   align-items: center;
 }
-.banner-text h1 {
-  font-weight: 900;
-  text-align: center;
-}
 
-.banner .banner-text {
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  position: absolute;
+  top: unset;
+  right: 0;
+  bottom: 5%;
+  left: 0;
+}
+.slick-dots li {
+  width: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.banner .banner-text h1 {
-  text-align: center;
+.slick-dots li .slick-dot {
+  --height-of-loader: 4px;
+  --loader-color: #000;
+  width: 100%;
+  height: var(--height-of-loader);
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+.slick-dots .slick-active .slick-dot::before {
+  content: "";
+  position: absolute;
+  background: var(--loader-color);
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 30px;
+  animation: moving 4s ease-in-out 1;
 }
 
 @media (max-width: 575.98px) {
   h1 {
-    font-size: 2rem;
-  }
-  h2 {
     font-size: 1.75rem;
   }
-  h3 {
+  h2 {
     font-size: 1.5rem;
   }
   .banner {
@@ -127,10 +149,10 @@ body button {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   h3 {
     font-size: 2rem;

@@ -22,24 +22,24 @@ const loadStock = (stock) => {
   // Output Default
   const stockDefault = stock
     .map((s) => {
-      return `<div class="col-lg-4 col-md-6 col-sm-6 col-6">
+      return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
       <div class="card">
         <div class="card-images">
           <img src="${s.images}" alt="" class="w-100" />
         </div>
         <div class="card-text">
-          <div class="group">
+          <div class="wrap" style="border: none;">
             <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
-            <div class="wrap row">
-              <p class="col-lg-6 col-sm-12 fw-bold">${s.nama_seri}</p>
-              <p class="col-lg-6 col-sm-12">${s.tahun}</p>
+            <p >${s.tahun}</p>
             </div>
+            <div class="wrap">
+              <p class="fw-bold">${s.nama_seri}</p>
           </div>
-          <div class="wrap">
+          <div class="wrap" style="border: none;">
             <p>Harga LCD</p>
             <p>Rp. ${s.harga_lcd} ,-</p>
           </div>
-          <div class="wrap">
+          <div class="wrap" style="border: none;">
             <p>Harga Baterai</p>
             <p>Rp. ${s.harga_baterai} ,-</p>
           </div>
@@ -53,24 +53,24 @@ const loadStock = (stock) => {
   const year2022 = stock
     .map((s) => {
       if (s.tahun == 2022) {
-        return `<div class="col-lg-4 col-md-6 col-sm-6">
+        return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
       <div class="card">
         <div class="card-images">
           <img src="${s.images}" alt="" class="w-100" />
         </div>
         <div class="card-text">
-          <div class="group">
+          <div class="wrap" style="border: none;">
             <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
+            <p >${s.tahun}</p>
+            </div>
             <div class="wrap">
               <p class="fw-bold">${s.nama_seri}</p>
-              <p>${s.tahun}</p>
-            </div>
           </div>
-          <div class="wrap">
+          <div class="wrap" style="border: none;">
             <p>Harga LCD</p>
             <p>Rp. ${s.harga_lcd} ,-</p>
           </div>
-          <div class="wrap">
+          <div class="wrap" style="border: none;">
             <p>Harga Baterai</p>
             <p>Rp. ${s.harga_baterai} ,-</p>
           </div>
@@ -84,30 +84,30 @@ const loadStock = (stock) => {
   const year2021 = stock
     .map((s) => {
       if (s.tahun == 2021) {
-        return `<div class="col-lg-4 col-md-6 col-sm-6">
-        <div class="card">
-          <div class="card-images">
-            <img src="${s.images}" alt="" class="w-100" />
+        return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
+      <div class="card">
+        <div class="card-images">
+          <img src="${s.images}" alt="" class="w-100" />
+        </div>
+        <div class="card-text">
+          <div class="wrap" style="border: none;">
+            <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
+            <p >${s.tahun}</p>
+            </div>
+            <div class="wrap">
+              <p class="fw-bold">${s.nama_seri}</p>
           </div>
-          <div class="card-text">
-            <div class="group">
-              <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
-              <div class="wrap">
-                <p class="fw-bold">${s.nama_seri}</p>
-                <p>${s.tahun}</p>
-              </div>
-            </div>
-            <div class="wrap">
-              <p>Harga LCD</p>
-              <p>Rp. ${s.harga_lcd} ,-</p>
-            </div>
-            <div class="wrap">
-              <p>Harga Baterai</p>
-              <p>Rp. ${s.harga_baterai} ,-</p>
-            </div>
+          <div class="wrap" style="border: none;">
+            <p>Harga LCD</p>
+            <p>Rp. ${s.harga_lcd} ,-</p>
+          </div>
+          <div class="wrap" style="border: none;">
+            <p>Harga Baterai</p>
+            <p>Rp. ${s.harga_baterai} ,-</p>
           </div>
         </div>
-      </div>`;
+      </div>
+    </div>`;
       }
     })
     .join("");
@@ -115,24 +115,24 @@ const loadStock = (stock) => {
   const year2020 = stock
     .map((s) => {
       if (s.tahun == 2020) {
-        return `<div class="col-lg-4 col-md-6 col-sm-6">
+        return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
       <div class="card">
         <div class="card-images">
           <img src="${s.images}" alt="" class="w-100" />
         </div>
         <div class="card-text">
-          <div class="group">
+          <div class="wrap" style="border: none;">
             <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
+            <p >${s.tahun}</p>
+            </div>
             <div class="wrap">
               <p class="fw-bold">${s.nama_seri}</p>
-              <p>${s.tahun}</p>
-            </div>
           </div>
-          <div class="wrap">
+          <div class="wrap" style="border: none;">
             <p>Harga LCD</p>
             <p>Rp. ${s.harga_lcd} ,-</p>
           </div>
-          <div class="wrap">
+          <div class="wrap" style="border: none;">
             <p>Harga Baterai</p>
             <p>Rp. ${s.harga_baterai} ,-</p>
           </div>
@@ -146,24 +146,24 @@ const loadStock = (stock) => {
   const year2019 = stock
     .map((s) => {
       if (s.tahun == 2019) {
-        return `<div class="col-lg-4 col-md-6 col-sm-6">
+        return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
       <div class="card">
         <div class="card-images">
           <img src="${s.images}" alt="" class="w-100" />
         </div>
         <div class="card-text">
-          <div class="group">
+          <div class="wrap" style="border: none;">
             <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
+            <p >${s.tahun}</p>
+            </div>
             <div class="wrap">
               <p class="fw-bold">${s.nama_seri}</p>
-              <p>${s.tahun}</p>
-            </div>
           </div>
-          <div class="wrap">
+          <div class="wrap" style="border: none;">
             <p>Harga LCD</p>
             <p>Rp. ${s.harga_lcd} ,-</p>
           </div>
-          <div class="wrap">
+          <div class="wrap" style="border: none;">
             <p>Harga Baterai</p>
             <p>Rp. ${s.harga_baterai} ,-</p>
           </div>
@@ -177,24 +177,24 @@ const loadStock = (stock) => {
   const year2018 = stock
     .map((s) => {
       if (s.tahun == 2018) {
-        return `<div class="col-lg-4 col-md-6 col-sm-6">
+        return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
       <div class="card">
         <div class="card-images">
           <img src="${s.images}" alt="" class="w-100" />
         </div>
         <div class="card-text">
-          <div class="group">
+          <div class="wrap" style="border: none;">
             <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
+            <p >${s.tahun}</p>
+            </div>
             <div class="wrap">
               <p class="fw-bold">${s.nama_seri}</p>
-              <p>${s.tahun}</p>
-            </div>
           </div>
-          <div class="wrap">
+          <div class="wrap" style="border: none;">
             <p>Harga LCD</p>
             <p>Rp. ${s.harga_lcd} ,-</p>
           </div>
-          <div class="wrap">
+          <div class="wrap" style="border: none;">
             <p>Harga Baterai</p>
             <p>Rp. ${s.harga_baterai} ,-</p>
           </div>
@@ -208,24 +208,24 @@ const loadStock = (stock) => {
   const year2017 = stock
     .map((s) => {
       if (s.tahun == 2017) {
-        return `<div class="col-lg-4 col-md-6 col-sm-6">
+        return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
       <div class="card">
         <div class="card-images">
           <img src="${s.images}" alt="" class="w-100" />
         </div>
         <div class="card-text">
-          <div class="group">
+          <div class="wrap" style="border: none;">
             <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
+            <p >${s.tahun}</p>
+            </div>
             <div class="wrap">
               <p class="fw-bold">${s.nama_seri}</p>
-              <p>${s.tahun}</p>
-            </div>
           </div>
-          <div class="wrap">
+          <div class="wrap" style="border: none;">
             <p>Harga LCD</p>
             <p>Rp. ${s.harga_lcd} ,-</p>
           </div>
-          <div class="wrap">
+          <div class="wrap" style="border: none;">
             <p>Harga Baterai</p>
             <p>Rp. ${s.harga_baterai} ,-</p>
           </div>
@@ -239,24 +239,24 @@ const loadStock = (stock) => {
   const year2016 = stock
     .map((s) => {
       if (s.tahun == 2016) {
-        return `<div class="col-lg-4 col-md-6 col-sm-6">
+        return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
       <div class="card">
         <div class="card-images">
           <img src="${s.images}" alt="" class="w-100" />
         </div>
         <div class="card-text">
-          <div class="group">
+          <div class="wrap" style="border: none;">
             <p class="m-0" style="color: #A2AAAD;">${typeIphone.nama_brand}</p>
+            <p >${s.tahun}</p>
+            </div>
             <div class="wrap">
               <p class="fw-bold">${s.nama_seri}</p>
-              <p>${s.tahun}</p>
-            </div>
           </div>
-          <div class="wrap">
+          <div class="wrap" style="border: none;">
             <p>Harga LCD</p>
             <p>Rp. ${s.harga_lcd} ,-</p>
           </div>
-          <div class="wrap">
+          <div class="wrap" style="border: none;">
             <p>Harga Baterai</p>
             <p>Rp. ${s.harga_baterai} ,-</p>
           </div>

@@ -1,16 +1,16 @@
 @import "mixin";
-
+body{
+  a{
+    color: #fff;
+  }
+}
 // About Section
-.col-lg-6{
-  padding: .5rem;
+.col-lg-6 {
+  padding: 0.5rem;
 }
 .card {
   border: none;
   position: relative;
-  .images-card {
-    width: 100%;
-    height: 100%;
-  }
   .card-floating-text {
     @include flex-box(center, center);
     text-align: center;
@@ -28,63 +28,30 @@
 .hero-section {
   position: relative;
 }
-.slick-dots {
-  @include flex-box(center, center);
-  gap: 1rem;
-  @include html-reset();
-  @include position(absolute, unset, 0, 5%, 0);
-  li {
-    width: 75px;
-    @include flex-box(center, center);
-    .slick-dot {
-      --height-of-loader: 4px;
-      --loader-color: #000;
-      width: 100%;
-      height: var(--height-of-loader);
-      border-radius: 30px;
-      background-color: rgba(255, 255, 255, 0.5);
-      position: relative;
-    }
-  }
-  .slick-active {
-    .slick-dot::before {
-      content: "";
-      position: absolute;
-      background: var(--loader-color);
-      top: 0;
-      left: 0;
-      height: 100%;
-      border-radius: 30px;
-      animation: moving 4s ease-in-out 1;
-    }
-  }
+.about-section {
+  margin-bottom: 0.25rem;
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  /* Card */
-  .card-section {
-    .banner-text {
-      h1 {
-        margin: 2rem 0;
-      }
-    }
+  h1 {
+    font-size: 1.75rem;
   }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   /* Card */
-  .card-section {
-    min-height: 100vh;
-    @include flex-box(center,center);
-    .banner-text {
-      h1 {
-        font-size: 3rem;
-        padding: 2rem 0;
-        color: #212121;
-      }
-    }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+
+  .images-card {
+    height: 100vh;
   }
 }
 
@@ -102,6 +69,9 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .card-section {
+    @include flex-box(center, center);
+  }
 }
 
 @keyframes moving {

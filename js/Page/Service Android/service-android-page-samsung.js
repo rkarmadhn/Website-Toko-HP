@@ -21,24 +21,24 @@ const loadStockSamsung = (types) => {
   // Output Default
   const tampilDefault = types
     .map((tps) => {
-      return `<div class="col-lg-4 col-md-4 col-sm-6">
+      return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
       <div class="card">
         <div class="card-images">
           <img src="${tps.images}" alt="" class="w-100" />
         </div>
         <div class="card-text">
-          <div class="group">
+          <div class="wrap" style="border: none;">
             <p class="m-0" style="color: #0c4da2;">${type.nama_brand}</p>
-            <div class="wrap">
-              <p class="fw-bold">${tps.nama_seri}</p>
-              <p>${tps.tahun}</p>
+            <p>${tps.tahun}</p>
             </div>
+            <div class="wrap" >
+            <p class="fw-bold">${tps.nama_seri}</p>
           </div>
-          <div class="wrap">
+          <div class="wrap" style="border: none;">
             <p>Harga LCD</p>
             <p>Rp. ${tps.harga_lcd} ,-</p>
           </div>
-          <div class="wrap">
+          <div class="wrap" style="border: none;">
             <p>Harga Baterai</p>
             <p>Rp. ${tps.harga_baterai} ,-</p>
           </div>

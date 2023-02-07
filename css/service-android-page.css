@@ -106,7 +106,7 @@ main .card .card-text .wrap * {
     padding: 0 0.5rem;
   }
   .container-fluid .col-6 {
-    padding: 0.5rem;
+    padding: 0.25rem;
   }
   .container-fluid .col-6 .card {
     border: none;
@@ -114,8 +114,14 @@ main .card .card-text .wrap * {
   .container-fluid .col-6 .card .card-images {
     padding: 0.5rem;
   }
+  .container-fluid .col-6 .card .card-images img {
+    max-height: 150px;
+  }
   .container-fluid .col-6 .card .card-text {
     padding: 0.5rem;
+  }
+  .container-fluid .col-6 .card .card-text p {
+    font-size: 12px;
   }
 }
 /* Small devices (landscape phones, 576px and up) */
@@ -126,14 +132,14 @@ main .card .card-text .wrap * {
     box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
   }
   .card .card-images {
-    padding: 1rem;
+    padding: 0.5rem;
   }
   .card .card-images img {
     min-height: 184.99px;
     max-height: 185px;
   }
   .card .card-text {
-    padding: 1rem;
+    padding: 0.5rem;
   }
   .card .card-text .wrap {
     border-bottom: 1px solid #212121;
@@ -143,10 +149,6 @@ main .card .card-text .wrap * {
 @media (min-width: 768px) {
   .card-images img {
     object-fit: contain;
-  }
-  .card:hover {
-    transform: scale(0.9);
-    box-shadow: 0 0 0.75rem 0.5rem rgba(0, 0, 0, 0.25);
   }
 }
 /* Large devices (desktops, 992px and up) */

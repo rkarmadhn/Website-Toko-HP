@@ -53,14 +53,20 @@ main {
   .container-fluid {
     padding: 0 0.5rem;
     .col-6 {
-      padding: 0.5rem;
+      padding: 0.25rem;
       .card {
         border: none;
         .card-images {
           padding: 0.5rem;
+          img{
+            max-height: 150px;
+          }
         }
         .card-text {
           padding: 0.5rem;
+          p{
+            font-size: 12px;
+          }
         }
       }
     }
@@ -77,14 +83,14 @@ main {
     border-radius: 1rem;
     box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
     .card-images {
-      padding: 1rem;
+      padding: .5rem;
       img {
         min-height: 184.99px;
         max-height: 185px;
       }
     }
     .card-text {
-      padding: 1rem;
+      padding: .5rem;
       .wrap {
         border-bottom: 1px solid #212121;
       }
@@ -98,10 +104,6 @@ main {
     img {
       object-fit: contain;
     }
-  }
-  .card:hover {
-    transform: scale(0.9);
-    box-shadow: 0 0 0.75rem 0.5rem rgba(0, 0, 0, 0.25);
   }
 }
 /* Large devices (desktops, 992px and up) */
