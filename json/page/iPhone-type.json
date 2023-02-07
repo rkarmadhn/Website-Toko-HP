@@ -28,7 +28,7 @@
     },
     {
       "id": 4,
-      "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-14-colors.png",
+      "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-14-plus-colors.png",
       "nama_seri": "iPhone 14",
       "tahun": 2022,
       "harga_lcd": 1500000,
@@ -36,7 +36,7 @@
     },
     {
       "id": 5,
-      "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-se-3rd-gen-colors.png",
+      "images": "https://cdn.shopify.com/s/files/1/0517/0803/5266/products/Artboard63_800x.jpg?v=1661152460",
       "nama_seri": "iPhone SE (Generasi ke-3)",
       "tahun": 2022,
       "harga_lcd": 1500000,
@@ -44,7 +44,7 @@
     },
     {
       "id": 6,
-      "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/2022-spring-iphone13-pro-max-colors.png",
+      "images": "https://gadgetsquad.id/wp-content/uploads/2022/09/apple_iphone_13_pro_max.jpg",
       "nama_seri": "iPhone 13 Pro Max",
       "tahun": 2021,
       "harga_lcd": 1500000,
@@ -52,7 +52,7 @@
     },
     {
       "id": 7,
-      "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/2022-spring-iphone13-pro-colors.png",
+      "images": "https://gadgetsquad.id/wp-content/uploads/2022/09/apple_iphone_13_pro_max.jpg",
       "nama_seri": "iPhone 13 Pro",
       "tahun": 2021,
       "harga_lcd": 1500000,
@@ -60,7 +60,7 @@
     },
     {
       "id": 8,
-      "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/2022-spring-iphone13-colors.png",
+      "images": "https://media.pricebook.co.id/images/product/L/97000_L_1.jpg",
       "nama_seri": "iPhone 13",
       "tahun": 2021,
       "harga_lcd": 1500000,
@@ -68,7 +68,7 @@
     },
     {
       "id": 9,
-      "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/2022-iphone13-mini-colors.png",
+      "images": "https://cdn.shopify.com/s/files/1/0583/2202/6680/products/darkgreen_1f670dd8-ab1c-4e89-9d17-83ae837f7f6a_1200x1200.jpg?v=1638900241",
       "nama_seri": "iPhone 13 Mini",
       "tahun": 2021,
       "harga_lcd": 1500000,
@@ -92,7 +92,7 @@
     },
     {
       "id": 12,
-      "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/2021-iphone12-colors.png",
+      "images": "https://www.mytrendyphone.cz/images/iPhone-12-128GB-Black-0194252031315-26102020-01-p.webp",
       "nama_seri": "iPhone 12",
       "tahun": 2020,
       "harga_lcd": 1500000,
@@ -100,7 +100,7 @@
     },
     {
       "id": 13,
-      "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/2021-iphone12-mini-colors.png",
+      "images": "https://www.mytrendyphone.cz/images/iPhone-12-128GB-Black-0194252031315-26102020-01-p.webp",
       "nama_seri": "iPhone 12 Mini",
       "tahun": 2020,
       "harga_lcd": 1500000,
@@ -108,7 +108,7 @@
     },
     {
       "id": 14,
-      "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone_se/iphone-se-2nd-gen-colors.jpg",
+      "images": "https://cdn.eraspace.com/media/catalog/product/i/p/iphone-se-black-1_4_1.jpg",
       "nama_seri": "iPhone SE (Generasi ke-2)",
       "tahun": 2020,
       "harga_lcd": 1500000,
