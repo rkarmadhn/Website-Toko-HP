@@ -178,7 +178,7 @@ nav {
   z-index: 90000;
 }
 nav * {
-  color: #212121;
+  color: #212121 !important;
 }
 nav .container {
   display: flex;
