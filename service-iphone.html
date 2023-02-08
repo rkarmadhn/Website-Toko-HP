@@ -18,6 +18,7 @@
     <!-- Default Css -->
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/service-iphone-page.css" />
+    <link rel="icon" href="images/logo-red-heart.png">
     <title>Rakha Cellular - Service Cepat, Tepat, Terbaik</title>
   </head>
   <body>
@@ -32,18 +33,21 @@
                 <div class="wrapper-side-menu">
                   <div class="wrap year-filter">
                     <h5 class="w-100">Tahun</h5>
-                    <i class="fa-solid fa-arrow-down" style="font-size: 20px;"></i>
-                    <i class="fa-solid fa-arrow-up hide" style="font-size: 20px;"></i>
+                    <i class="fa-solid fa-arrow-down" style="font-size: 20px"></i>
+                    <i class="fa-solid fa-arrow-up hide" style="font-size: 20px"></i>
                   </div>
                   <ul class="side-menu-filter show-years hide">
-                    <li class="year2022">2022</li>
-                    <li class="year2021">2021</li>
-                    <li class="year2020">2020</li>
-                    <li class="year2019">2019</li>
-                    <li class="year2018">2018</li>
-                    <li class="year2017">2017</li>
-                    <li class="year2016">2016</li>
+                    <li class="button-year year2022">2022</li>
+                    <li class="button-year year2021">2021</li>
+                    <li class="button-year year2020">2020</li>
+                    <li class="button-year year2019">2019</li>
+                    <li class="button-year year2018">2018</li>
+                    <li class="button-year year2017">2017</li>
+                    <li class="button-year year2016">2016</li>
                   </ul>
+                  <div class="wrap button-reset">
+                  <h5>Reset</h5>
+                  </div>
                 </div>
                 <div class="wrap my-2">
                   <p class="text-secondary">*) Untuk harga sudah termasuk jasa pasang , Sewaktu waktu harga akan berubah, Untuk stock bisa ditanyakan melalui Whatsapp kami atau tekan Contact pada Navigasi kami</p>
@@ -59,7 +63,6 @@
           </div>
         </div>
       </div>
-      <div class="mobile-view"></div>
     </main>
     <footer class="footer"></footer>
 
@@ -79,6 +82,18 @@
           $(".fa-arrow-down").toggleClass("hide");
           $(".fa-arrow-up").toggleClass("hide");
           $(".show-years").toggleClass("hide");
+        });
+        $(".button-year").click(function () {
+          $(".button-reset").show();
+          $(".fa-arrow-down").toggleClass("hide");
+          $(".fa-arrow-up").toggleClass("hide");
+          $(".show-years").toggleClass("hide");
+        });
+
+        $(".button-reset").click(function () {
+          $(".fa-arrow-down").removeClass("hide");
+          $(".fa-arrow-up").addClass("hide");
+          $(".show-years").addClass("hide");
         });
       });
     </script>

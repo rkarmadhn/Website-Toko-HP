@@ -28,22 +28,26 @@ main .side-menu * {
   color: #212121;
   margin: 0;
 }
-main .side-menu .wrapper-side-menu {
-  border-bottom: 1px solid #eaeaea;
-}
 main .side-menu .wrapper-side-menu .wrap {
+  border-bottom: 1px solid #eaeaea;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
   padding: 1rem 0;
 }
+main .side-menu .wrapper-side-menu .button-reset {
+  display: none;
+}
+main .side-menu .wrapper-side-menu .button-reset h5 {
+  color: red;
+}
 main .side-menu .wrapper-side-menu ul {
   padding: 0;
   cursor: pointer;
 }
 main .side-menu .wrapper-side-menu ul li {
-  color: #6c757d !important;
+  color: #6c757d;
   padding: 0.25rem 0;
   border-bottom: 1px solid #eaeaea;
   list-style: none;

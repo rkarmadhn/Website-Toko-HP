@@ -9,17 +9,23 @@ main {
       margin: 0;
     }
     .wrapper-side-menu {
-      border-bottom: 1px solid #eaeaea;
       .wrap {
+        border-bottom: 1px solid #eaeaea;
         @include flex-box(space-between, center);
         cursor: pointer;
         padding: 1rem 0;
+      }
+      .button-reset{
+        display: none;
+        h5{
+          color: red;
+        }
       }
       ul {
         padding: 0;
         cursor: pointer;
         li {
-          color: #6c757d !important;
+          color: #6c757d ;
           padding: 0.25rem 0;
           border-bottom: 1px solid #eaeaea;
           list-style: none;

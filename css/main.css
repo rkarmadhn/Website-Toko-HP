@@ -189,7 +189,7 @@ nav .container {
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .btn-show,
-.btn-hide {
+  .btn-hide {
     font-size: 2rem;
     transition: all 0.5s;
   }

@@ -1,6 +1,5 @@
 // Mengambil Element
 const rowCard = document.querySelector(".row-cards");
-const itemsTitle = document.querySelector('.title-items')
 
 // Pemanggilan json
 let typeIphone = [];
@@ -52,7 +51,7 @@ const loadStock = (stock) => {
   // Output Berdasarkan Tahun 2022
   const year2022 = stock
     .map((s) => {
-      if (s.tahun == 2022) {
+      if (s.tahun === 2022) {
         return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
       <div class="card">
         <div class="card-images">
@@ -83,7 +82,7 @@ const loadStock = (stock) => {
   // Output Berdasarkan Tahun 2021
   const year2021 = stock
     .map((s) => {
-      if (s.tahun == 2021) {
+      if (s.tahun === 2021) {
         return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
       <div class="card">
         <div class="card-images">
@@ -114,7 +113,7 @@ const loadStock = (stock) => {
   // Output Berdasarkan Tahun 2020
   const year2020 = stock
     .map((s) => {
-      if (s.tahun == 2020) {
+      if (s.tahun === 2020) {
         return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
       <div class="card">
         <div class="card-images">
@@ -145,7 +144,7 @@ const loadStock = (stock) => {
   // Output Berdasarkan Tahun 2019
   const year2019 = stock
     .map((s) => {
-      if (s.tahun == 2019) {
+      if (s.tahun === 2019) {
         return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
       <div class="card">
         <div class="card-images">
@@ -176,7 +175,7 @@ const loadStock = (stock) => {
   // Output Berdasarkan Tahun 2018
   const year2018 = stock
     .map((s) => {
-      if (s.tahun == 2018) {
+      if (s.tahun === 2018) {
         return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
       <div class="card">
         <div class="card-images">
@@ -207,7 +206,7 @@ const loadStock = (stock) => {
   // Output Berdasarkan Tahun 2017
   const year2017 = stock
     .map((s) => {
-      if (s.tahun == 2017) {
+      if (s.tahun === 2017) {
         return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
       <div class="card">
         <div class="card-images">
@@ -238,7 +237,7 @@ const loadStock = (stock) => {
   // Output Berdasarkan Tahun 2016
   const year2016 = stock
     .map((s) => {
-      if (s.tahun == 2016) {
+      if (s.tahun === 2016) {
         return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
       <div class="card">
         <div class="card-images">
@@ -267,43 +266,44 @@ const loadStock = (stock) => {
     })
     .join("");
 
-  // Button filter 2022
-  document.querySelector(".year2022").onclick = () => {
-    itemsTitle.style.display = "none";
-    rowCard.innerHTML = year2022;
-  };
-  // Button filter 2021
-  document.querySelector(".year2021").onclick = () => {
-    itemsTitle.style.display = "none";
-    rowCard.innerHTML = year2021;
-  };
-  // Button filter 2020
-  document.querySelector(".year2020").onclick = () => {
-    itemsTitle.style.display = "none";
-    rowCard.innerHTML = year2020;
-  };
-  // Button filter 2019
-  document.querySelector(".year2019").onclick = () => {
-    itemsTitle.style.display = "none";
-    rowCard.innerHTML = year2019;
-  };
-  // Button filter 2018
-  document.querySelector(".year2018").onclick = () => {
-    itemsTitle.style.display = "none";
-    rowCard.innerHTML = year2018;
-  };
-  // Button filter 2017
-  document.querySelector(".year2017").onclick = () => {
-    itemsTitle.style.display = "none";
-    rowCard.innerHTML = year2017;
-  };
-  // Button filter 2016
-  document.querySelector(".year2016").onclick = () => {
-    itemsTitle.style.display = "none";
-    rowCard.innerHTML = year2016;
-  };
   // Output Default
   rowCard.innerHTML = stockDefault;
+
+  $(document).ready(function () {
+    $(".year2022").click(function () {
+      $(".title-items").hide();
+      rowCard.innerHTML = year2022;
+    });
+    $(".year2021").click(function () {
+      $(".title-items").hide();
+      rowCard.innerHTML = year2021;
+    });
+    $(".year2020").click(function () {
+      $(".title-items").hide();
+      rowCard.innerHTML = year2020;
+    });
+    $(".year2019").click(function () {
+      $(".title-items").hide();
+      rowCard.innerHTML = year2019;
+    });
+    $(".year2018").click(function () {
+      $(".title-items").hide();
+      rowCard.innerHTML = year2018;
+    });
+    $(".year2017").click(function () {
+      $(".title-items").hide();
+      rowCard.innerHTML = year2017;
+    });
+    $(".year2016").click(function () {
+      $(".title-items").hide();
+      rowCard.innerHTML = year2016;
+    });
+    $(".button-reset").click(function () {
+      $(this).hide();
+      $(".title-items").show();
+      rowCard.innerHTML = stockDefault;
+    });
+  });
 };
 
 // Return Function Pemanggilan API diatas

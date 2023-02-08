@@ -7,13 +7,17 @@
   gap: 2rem;
   padding: 0 1rem;
 }
-.head-text h5 {
+.head-text a {
+  font-size: 1.1rem;
   color: #6c757d;
   padding: 1rem 0;
   margin: 0;
   cursor: pointer;
 }
-.head-text h5.active {
+.head-text a:hover {
+  color: #6c757d;
+}
+.head-text a.active {
   color: rgb(61, 106, 255);
   border-bottom: 2px solid rgb(61, 106, 255);
 }
@@ -73,22 +77,26 @@ main .side-menu * {
   color: #212121;
   margin: 0;
 }
-main .side-menu .wrapper-side-menu {
-  border-bottom: 1px solid #eaeaea;
-}
 main .side-menu .wrapper-side-menu .wrap {
+  border-bottom: 1px solid #eaeaea;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
   padding: 1rem 0;
 }
+main .side-menu .wrapper-side-menu .button-reset {
+  display: none;
+}
+main .side-menu .wrapper-side-menu .button-reset h5 {
+  color: red;
+}
 main .side-menu .wrapper-side-menu ul {
   padding: 0;
   cursor: pointer;
 }
 main .side-menu .wrapper-side-menu ul li {
-  color: #6c757d !important;
+  color: #6c757d;
   padding: 0.25rem 0;
   border-bottom: 1px solid #eaeaea;
   list-style: none;

@@ -18,6 +18,7 @@
     <!-- Default Css -->
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/service-android-page.css" />
+    <link rel="icon" href="images/logo-red-heart.png" />
     <title>Rakha Cellular - Service Cepat, Tepat, Terbaik</title>
   </head>
   <body>
@@ -26,12 +27,12 @@
     <main>
       <div class="overflow">
         <div class="head-text">
-          <h5 class="active">Samsung</h5>
-          <h5>Oppo</h5>
-          <h5>Vivo</h5>
-          <h5>Xiaomi</h5>
-          <h5>Realme</h5>
-          <h5>Poco</h5>
+          <a href="service-android-page-samsung.html">Samsung</a>
+          <a href="service-android-page-oppo.html" class="active">Oppo</a>
+          <a href="service-android-page-vivo.html">Vivo</a>
+          <a href="service-android-page-xiaomi.html">Xiaomi</a>
+          <a href="service-android-page-realme.html">Realme</a>
+          <a href="service-android-page-poco.html">Poco</a>
         </div>
       </div>
       <div class="desktop-view">
@@ -47,13 +48,13 @@
                     <i class="fa-solid fa-arrow-up hide" style="font-size: 20px"></i>
                   </div>
                   <ul class="side-menu-filter show-years hide">
-                    <li class="year2022">2022</li>
-                    <li class="year2021">2021</li>
-                    <li class="year2020">2020</li>
-                    <li class="year2019">2019</li>
-                    <li class="year2018">2018</li>
-                    <li class="year2017">2017</li>
-                    <li class="year2016">2016</li>
+                    <li class="button-year year2021">2021</li>
+                    <li class="button-year year2020">2020</li>
+                    <li class="button-year year2019">2019</li>
+                    <li class="button-year year2018">2018</li>
+                    <li class="button-year year2017">2017</li>
+                    <li class="button-year year2016">2016</li>
+                    <li class="button-reset">Reset</li>
                   </ul>
                 </div>
                 <div class="wrap my-2">
@@ -61,16 +62,15 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-9 col-md-12 px-4">
+            <div class="col-lg-9 col-md-12 px-2">
               <div class="wrap py-2 title-items">
                 <h5>Menampilkan <span class="text-success showed-items"></span> Item</h5>
               </div>
-              <div class="row row-cards"></div>
+              <div class="row row-card-page-samsung"></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="mobile-view"></div>
     </main>
 
     <footer class="footer"></footer>
@@ -84,12 +84,17 @@
     ></script>
     <script src="js/slick-1.8.1/slick/slick.js"></script>
     <script src="js/navigation.js"></script>
+    <script src="js/Page/"></script>
     <script>
       $(document).ready(function () {
         $(".year-filter").click(function () {
           $(".fa-arrow-down").toggleClass("hide");
           $(".fa-arrow-up").toggleClass("hide");
           $(".show-years").toggleClass("hide");
+        });
+
+        $(".button-year").click(function () {
+          $(".button-reset").show();
         });
       });
     </script>
