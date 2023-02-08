@@ -15,7 +15,7 @@ body a {
   transition: all 0.5s;
 }
 body a:hover {
-  color: gold;
+  color: #414141;
 }
 body button {
   background-color: transparent;
@@ -178,7 +178,7 @@ nav {
   z-index: 90000;
 }
 nav * {
-  color: #888 !important;
+  color: #212121;
 }
 nav .container {
   display: flex;

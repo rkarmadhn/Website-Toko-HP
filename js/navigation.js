@@ -6,8 +6,6 @@ document.querySelector("#myNav").innerHTML = `<div class="container">
 <div class="nav-items">
   <a href="index.html" class="nav-links">Home</a>
   <a href="tentang-kami.html" class="nav-links">Tentang Kami</a>
-  <a href="http://" class="nav-links">Location</a>
-  <a href="http://" class="nav-links">Contact Us</a>
 </div>
 <div class="navbar-button">
 <button type="button" class="btn-show"><i class="fa-solid fa-bars-staggered"></i></button>
@@ -25,10 +23,10 @@ window.addEventListener("scroll", function () {
   if (width > 575.98) {
     if (scrollPosition > this.scrollY) {
       $("#myNav").css("top", "0");
-      $(".overflow").css("top", "0")
+      $(".overflow").css("top", "0");
     } else {
       $("#myNav").css("top", "-100px");
-      $(".overflow").css("top", "-125px")
+      $(".overflow").css("top", "-150px");
     }
     scrollPosition = this.scrollY;
   }

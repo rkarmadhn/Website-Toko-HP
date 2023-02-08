@@ -49,36 +49,36 @@ const loadStockSamsung = (types) => {
     .join("");
 
   // Output 2021
-  const stock2021 = types
-    .map((tps) => {
-      if (tps.tahun === 2021) {
-        return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
-        <div class="card">
-          <div class="card-images">
-            <img src="${tps.images}" alt="" class="w-100" />
-          </div>
-          <div class="card-text">
-            <div class="wrap" style="border: none;">
-              <p class="m-0" style="color: #0c4da2;">${type.nama_brand}</p>
-              <p>${tps.tahun}</p>
+    const stock2021 = types
+      .map((tps) => {
+        if (tps.tahun === 2021) {
+          return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
+          <div class="card">
+            <div class="card-images">
+              <img src="${tps.images}" alt="" class="w-100" />
+            </div>
+            <div class="card-text">
+              <div class="wrap" style="border: none;">
+                <p class="m-0" style="color: #0c4da2;">${type.nama_brand}</p>
+                <p>${tps.tahun}</p>
+                </div>
+                <div class="wrap" >
+                <p class="fw-bold">${tps.nama_seri}</p>
               </div>
-              <div class="wrap" >
-              <p class="fw-bold">${tps.nama_seri}</p>
-            </div>
-            <div class="wrap" style="border: none;">
-              <p>Harga LCD</p>
-              <p>Rp. ${tps.harga_lcd} ,-</p>
-            </div>
-            <div class="wrap" style="border: none;">
-              <p>Harga Baterai</p>
-              <p>Rp. ${tps.harga_baterai} ,-</p>
+              <div class="wrap" style="border: none;">
+                <p>Harga LCD</p>
+                <p>Rp. ${tps.harga_lcd} ,-</p>
+              </div>
+              <div class="wrap" style="border: none;">
+                <p>Harga Baterai</p>
+                <p>Rp. ${tps.harga_baterai} ,-</p>
+              </div>
             </div>
           </div>
-        </div>
-      </div>`;
-      }
-    })
-    .join("");
+        </div>`;
+        }
+      })
+      .join("");
 
   // Output 2020
   const stock2020 = types

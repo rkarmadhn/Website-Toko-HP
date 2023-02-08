@@ -84,6 +84,7 @@ main .side-menu .wrapper-side-menu .wrap {
   align-items: center;
   cursor: pointer;
   padding: 1rem 0;
+  transition: all 1s;
 }
 main .side-menu .wrapper-side-menu .button-reset {
   display: none;
@@ -94,6 +95,7 @@ main .side-menu .wrapper-side-menu .button-reset h5 {
 main .side-menu .wrapper-side-menu ul {
   padding: 0;
   cursor: pointer;
+  transition: all 1s;
 }
 main .side-menu .wrapper-side-menu ul li {
   color: #6c757d;
