@@ -4,18 +4,10 @@ body {
   box-sizing: border-box;
   animation: fade 1s ease;
 }
-body h1,
-body h2,
-body h3 {
-  font-size: bold;
-}
 body a {
   text-decoration: none;
   cursor: pointer;
   transition: all 0.5s;
-}
-body a:hover {
-  color: #414141;
 }
 body button {
   background-color: transparent;
@@ -130,12 +122,6 @@ body button {
 }
 
 @media (max-width: 575.98px) {
-  h1 {
-    font-size: 1.75rem;
-  }
-  h2 {
-    font-size: 1.5rem;
-  }
   .banner {
     height: 60vh;
   }

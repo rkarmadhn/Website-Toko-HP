@@ -1,5 +1,13 @@
+const tahun = new Date().getFullYear();
+const bulan = new Date();
+const hari = new Date().getDay();
+const date = hari + " " + bulan + " " + tahun;
+
 document.querySelector(".filter").innerHTML = `<div class="side-menu">
-<h3>Filter</h3>
+<div class="label">
+<h4>Filter</h4>
+<i class="fa-solid fa-xmark close-filter"></i>
+</div>
 <div class="wrapper-side-menu">
   <div class="wrap year-filter">
     <h5 class="w-100">Tahun</h5>
@@ -21,6 +29,9 @@ document.querySelector(".filter").innerHTML = `<div class="side-menu">
 </div>
 <div class="wrap my-2">
   <p class="text-secondary">*) Untuk harga sudah termasuk jasa pasang , Sewaktu waktu harga akan berubah, Untuk stock bisa ditanyakan melalui Whatsapp kami atau tekan Contact pada Navigasi kami</p>
+</div>
+<div class="wrap my-2">
+  <p class="text-secondary">*) ${date}</p>
 </div>
 </div>`;
 

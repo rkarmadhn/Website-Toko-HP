@@ -7,240 +7,240 @@
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-14-pro-colors.png",
       "nama_seri": "iPhone 14 Pro Max",
       "tahun": 2022,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 2,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-14-pro-colors.png",
       "nama_seri": "iPhone 14 Pro",
       "tahun": 2022,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 3,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-14-plus-colors.png",
       "nama_seri": "iPhone 14 Plus",
       "tahun": 2022,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 4,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-14-plus-colors.png",
       "nama_seri": "iPhone 14",
       "tahun": 2022,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 5,
       "images": "https://cdn.shopify.com/s/files/1/0517/0803/5266/products/Artboard63_800x.jpg?v=1661152460",
       "nama_seri": "iPhone SE (Generasi ke-3)",
       "tahun": 2022,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 6,
       "images": "https://gadgetsquad.id/wp-content/uploads/2022/09/apple_iphone_13_pro_max.jpg",
       "nama_seri": "iPhone 13 Pro Max",
       "tahun": 2021,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 7,
       "images": "https://gadgetsquad.id/wp-content/uploads/2022/09/apple_iphone_13_pro_max.jpg",
       "nama_seri": "iPhone 13 Pro",
       "tahun": 2021,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 8,
       "images": "https://media.pricebook.co.id/images/product/L/97000_L_1.jpg",
       "nama_seri": "iPhone 13",
       "tahun": 2021,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 9,
       "images": "https://cdn.shopify.com/s/files/1/0583/2202/6680/products/darkgreen_1f670dd8-ab1c-4e89-9d17-83ae837f7f6a_1200x1200.jpg?v=1638900241",
       "nama_seri": "iPhone 13 Mini",
       "tahun": 2021,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 10,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone12promax/iphone12-pro-max-colors.jpg",
       "nama_seri": "iPhone 12 Pro Max",
       "tahun": 2020,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 11,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone12promax/iphone12-pro-max-colors.jpg",
       "nama_seri": "iPhone 12 Pro",
       "tahun": 2020,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 12,
       "images": "https://www.mytrendyphone.cz/images/iPhone-12-128GB-Black-0194252031315-26102020-01-p.webp",
       "nama_seri": "iPhone 12",
       "tahun": 2020,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 13,
       "images": "https://www.mytrendyphone.cz/images/iPhone-12-128GB-Black-0194252031315-26102020-01-p.webp",
       "nama_seri": "iPhone 12 Mini",
       "tahun": 2020,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 14,
       "images": "https://cdn.eraspace.com/media/catalog/product/i/p/iphone-se-black-1_4_1.jpg",
       "nama_seri": "iPhone SE (Generasi ke-2)",
       "tahun": 2020,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 15,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/identify-iphone-11pro.jpg",
       "nama_seri": "iPhone 11 Pro",
       "tahun": 2019,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 16,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/identify-iphone-11pro-max.jpg",
       "nama_seri": "iPhone 11 Pro Max",
       "tahun": 2019,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 17,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/identify-iphone-11-colors.jpg",
       "nama_seri": "iPhone 11",
       "tahun": 2019,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 18,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-xs-colors.jpg",
       "nama_seri": "iPhone XS",
       "tahun": 2018,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 19,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-xs-max-colors.jpg",
       "nama_seri": "iPhone XS Max",
       "tahun": 2018,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 20,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-xr/identify-iphone-xr-colors.jpg",
       "nama_seri": "iPhone XR",
       "tahun": 2018,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 21,
       "images": "https://p-id.ipricegroup.com/uploaded_8a8bd83209764bc9255a6b4918861178.jpg",
       "nama_seri": "iPhone X",
       "tahun": 2017,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 22,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone8/iphone-8-colors.jpg",
       "nama_seri": "iPhone 8",
       "tahun": 2017,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 23,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone8plus/iphone-8plus-colors.jpg",
       "nama_seri": "iPhone 8 Plus",
       "tahun": 2017,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 24,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone7/iphone7-colors.jpg",
       "nama_seri": "iPhone 7",
       "tahun": 2016,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 25,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone7plus/iphone7plus-colors.jpg",
       "nama_seri": "iPhone 7 Plus",
       "tahun": 2016,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 26,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone_se/iphone-se-colors.jpg",
       "nama_seri": "iPhone SE (Generasi ke-1)",
       "tahun": 2016,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 27,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-6s-colors.jpg",
       "nama_seri": "iPhone 6s",
       "tahun": 2015,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 28,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-6splus-colors.jpg",
       "nama_seri": "iPhone 6s Plus",
       "tahun": 2015,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 29,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-iphone6-colors.jpg",
       "nama_seri": "iPhone 6",
       "tahun": 2014,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     },
     {
       "id": 30,
       "images": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-iphone6plus-colors.jpg",
       "nama_seri": "iPhone 6 Plus",
       "tahun": 2014,
-      "harga_lcd": 1500000,
-      "harga_baterai": 1200000
+      "harga_lcd": "",
+      "harga_baterai": ""
     }
   ]
 }

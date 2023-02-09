@@ -1,4 +1,4 @@
-body a {
+body a, body a:hover {
   color: #fff;
 }
 
@@ -38,6 +38,9 @@ body a {
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  body {
+    padding-top: 4rem;
+  }
   h1 {
     font-size: 1.75rem;
   }
@@ -58,7 +61,7 @@ body a {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .banner .banner-text h1 {
-    margin-bottom: 2rem;
+    font-weight: 900;
   }
 }
 /* Large devices (desktops, 992px and up) */

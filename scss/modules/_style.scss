@@ -1,21 +1,11 @@
-// Variables
-
 body {
   font-family: "Inter Tight", sans-serif;
   box-sizing: border-box;
   animation: fade 1s ease;
-  h1,
-  h2,
-  h3 {
-    font-size: bold;
-  }
   a {
     text-decoration: none;
     cursor: pointer;
     transition: all 0.5s;
-  }
-  a:hover{
-    color: #414141;
   }
   button {
     background-color: transparent;
@@ -118,12 +108,6 @@ body {
 
 
 @media (max-width: 575.98px) {
-  h1 {
-    font-size: 1.75rem;
-  }
-  h2 {
-    font-size: 1.5rem;
-  }
   // Banner
   .banner {
     height: 60vh;

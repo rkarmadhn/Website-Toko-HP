@@ -1,41 +1,37 @@
 @import "mixin";
 
 main {
-  .side-menu {
-    padding: 0.5rem;
-    border-radius: 0 1rem 1rem 0;
-    * {
-      color: #212121;
-      margin: 0;
+  * {
+    color: #212121;
+    margin: 0;
+  }
+  .wrapper-side-menu {
+    .wrap {
+      border-bottom: 1px solid #eaeaea;
+      @include flex-box(space-between, center);
+      cursor: pointer;
+      padding: 1rem 0;
+      transition: all 1s;
     }
-    .wrapper-side-menu {
-      .wrap {
+    .button-reset {
+      display: none;
+      h5 {
+        color: red;
+      }
+    }
+    ul {
+      padding: 0;
+      cursor: pointer;
+      transition: all 1s;
+      li {
+        color: #6c757d;
+        padding: 0.25rem 0;
         border-bottom: 1px solid #eaeaea;
-        @include flex-box(space-between, center);
-        cursor: pointer;
-        padding: 1rem 0;
-        transition: all 1s;
+        list-style: none;
+        transition: all 0.75s;
       }
-      .button-reset{
-        display: none;
-        h5{
-          color: red;
-        }
-      }
-      ul {
-        padding: 0;
-        cursor: pointer;
-        transition: all 1s;
-        li {
-          color: #6c757d ;
-          padding: 0.25rem 0;
-          border-bottom: 1px solid #eaeaea;
-          list-style: none;
-          transition: all 0.75s;
-        }
-        li:hover {
-          background-color: #f2f2fe;
-        }
+      li:hover {
+        background-color: #f2f2fe;
       }
     }
   }
@@ -58,6 +54,9 @@ main {
 }
 
 @media (max-width: 575.98px) {
+  .side-menu {
+    padding: 0;
+  }
   .container-fluid {
     padding: 0 0.5rem;
     .col-6 {
@@ -66,39 +65,59 @@ main {
         border: none;
         .card-images {
           padding: 0.5rem;
-          img{
+          img {
             max-height: 150px;
           }
         }
         .card-text {
           padding: 0.5rem;
-          p{
+          p {
             font-size: 12px;
           }
         }
       }
     }
   }
-  // .desktop-view {
-  //   display: none;
-  // }
+  
+  .filter{
+    position: fixed;
+    background-color: #fafafa;
+    bottom: 0;
+    width: 100%;
+    z-index: 1020;
+    border-radius: 2rem 2rem 0 0;
+    padding: 1rem;
+    margin: 0;
+    .label{
+      @include flex-box(space-between,center);
+      i{
+        font-size: 1.5rem;
+      }
+    }
+
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  main {
+    .side-menu {
+      padding: 0.5rem;
+    }
+  }
   .card {
     border: 1px solid #f2f2fe;
     border-radius: 1rem;
     box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
     .card-images {
-      padding: .5rem;
+      padding: 0.5rem;
       img {
         min-height: 184.99px;
         max-height: 185px;
       }
     }
     .card-text {
-      padding: .5rem;
+      padding: 0.5rem;
       .wrap {
         border-bottom: 1px solid #212121;
       }

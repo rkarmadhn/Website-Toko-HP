@@ -43,7 +43,7 @@ $(".btn-show").click(function () {
 $(".btn-hide").click(function () {
   $(".btn-hide").hide();
   $(".btn-show").show();
-  $(".nav-items").css("left", "-100%");
+  $(".nav-items").css("left", "-120%");
   $("#myNav").removeClass("add-border");
 });
 

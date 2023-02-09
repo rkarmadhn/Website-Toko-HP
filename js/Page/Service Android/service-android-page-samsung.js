@@ -1,4 +1,4 @@
-const row = document.querySelector(".row-card-page-samsung");
+const row = document.querySelector(".row-card-page");
 const itemsTitle = document.querySelector(".title-items");
 
 // Panggil API
@@ -14,228 +14,275 @@ const stock = async () => {
   }
 };
 
-const loadStockSamsung = (types) => {
+const loadStockSamsung = (datas) => {
   // Output Pada Show items
-  document.querySelector(".showed-items").innerHTML = types.length;
+  document.querySelector(".showed-items").innerHTML = datas.length;
 
   // Output Default
-  const tampilDefault = types
-    .map((tps) => {
+  const tampilDefault = datas
+    .map((dt) => {
       return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
-      <div class="card">
-        <div class="card-images">
-          <img src="${tps.images}" alt="" class="w-100" />
-        </div>
-        <div class="card-text">
-          <div class="wrap" style="border: none;">
-            <p class="m-0" style="color: #0c4da2;">${type.nama_brand}</p>
-            <p>${tps.tahun}</p>
-            </div>
-            <div class="wrap" >
-            <p class="fw-bold">${tps.nama_seri}</p>
-          </div>
-          <div class="wrap" style="border: none;">
-            <p>Harga LCD</p>
-            <p>Rp. ${tps.harga_lcd} ,-</p>
-          </div>
-          <div class="wrap" style="border: none;">
-            <p>Harga Baterai</p>
-            <p>Rp. ${tps.harga_baterai} ,-</p>
-          </div>
-        </div>
-      </div>
-    </div>`;
-    })
-    .join("");
-
-  // Output 2021
-    const stock2021 = types
-      .map((tps) => {
-        if (tps.tahun === 2021) {
-          return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
           <div class="card">
             <div class="card-images">
-              <img src="${tps.images}" alt="" class="w-100" />
+              <img src="${dt.images}" alt="" class="w-100" />
             </div>
             <div class="card-text">
               <div class="wrap" style="border: none;">
-                <p class="m-0" style="color: #0c4da2;">${type.nama_brand}</p>
-                <p>${tps.tahun}</p>
-                </div>
-                <div class="wrap" >
-                <p class="fw-bold">${tps.nama_seri}</p>
+                <p class="m-0" style="color: #0c4da2;">
+                  ${type.nama_brand}
+                </p>
+                <p>${dt.tahun}</p>
+              </div>
+              <div class="wrap">
+                <p class="fw-bold">${dt.nama_seri}</p>
               </div>
               <div class="wrap" style="border: none;">
                 <p>Harga LCD</p>
-                <p>Rp. ${tps.harga_lcd} ,-</p>
+                <p>${dt.harga_lcd >= 1 ? `Rp. ${dt.harga_lcd} .-` : `Tidak Tersedia`}</p>
               </div>
               <div class="wrap" style="border: none;">
                 <p>Harga Baterai</p>
-                <p>Rp. ${tps.harga_baterai} ,-</p>
+                <p>${dt.harga_baterai >= 1 ? `Rp. ${dt.harga_baterai} .-` : `Tidak Tersedia`}</p>
               </div>
             </div>
           </div>
         </div>`;
-        }
-      })
-      .join("");
+    })
+    .join("");
+
+  // Output 2022
+  const stock2022 = datas
+    .map((dt) => {
+      if (dt.tahun === 2022) {
+        return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
+          <div class="card">
+            <div class="card-images">
+              <img src="${dt.images}" alt="" class="w-100" />
+            </div>
+            <div class="card-text">
+              <div class="wrap" style="border: none;">
+                <p class="m-0" style="color: #0c4da2;">${type.nama_brand}</p>
+                <p>${dt.tahun}</p>
+                </div>
+                <div class="wrap" >
+                <p class="fw-bold">${dt.nama_seri}</p>
+              </div>
+              <div class="wrap" style="border: none;">
+                    <p>Harga LCD</p>
+                    <p>${dt.harga_lcd >= 1 ? `Rp. ${dt.harga_lcd} .-` : `Tidak Tersedia`}</p>
+                  </div>
+                  <div class="wrap" style="border: none;">
+                    <p>Harga Baterai</p>
+                    <p>${dt.harga_baterai >= 1 ? `Rp. ${dt.harga_baterai} .-` : `Tidak Tersedia`}</p>
+                  </div>
+            </div>
+          </div>
+        </div>`;
+      }
+    })
+    .join("");
+
+  // Output 2021
+  const stock2021 = datas
+    .map((dt) => {
+      if (dt.tahun === 2021) {
+        return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
+            <div class="card">
+              <div class="card-images">
+                <img src="${dt.images}" alt="" class="w-100" />
+              </div>
+              <div class="card-text">
+                <div class="wrap" style="border: none;">
+                  <p class="m-0" style="color: #0c4da2;">
+                    ${type.nama_brand}
+                  </p>
+                  <p>${dt.tahun}</p>
+                </div>
+                <div class="wrap">
+                  <p class="fw-bold">${dt.nama_seri}</p>
+                </div>
+                <div class="wrap" style="border: none;">
+                  <p>Harga LCD</p>
+                  <p>${dt.harga_lcd >= 1 ? `Rp. ${dt.harga_lcd} .-` : `Tidak Tersedia`}</p>
+                </div>
+                <div class="wrap" style="border: none;">
+                  <p>Harga Baterai</p>
+                  <p>${dt.harga_baterai >= 1 ? `Rp. ${dt.harga_baterai} .-` : `Tidak Tersedia`}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+    })
+    .join("");
 
   // Output 2020
-  const stock2020 = types
-    .map((tps) => {
-      if (tps.tahun === 2020) {
+  const stock2020 = datas
+    .map((dt) => {
+      if (dt.tahun === 2020) {
         return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
-        <div class="card">
-          <div class="card-images">
-            <img src="${tps.images}" alt="" class="w-100" />
-          </div>
-          <div class="card-text">
-            <div class="wrap" style="border: none;">
-              <p class="m-0" style="color: #0c4da2;">${type.nama_brand}</p>
-              <p>${tps.tahun}</p>
+            <div class="card">
+              <div class="card-images">
+                <img src="${dt.images}" alt="" class="w-100" />
               </div>
-              <div class="wrap" >
-              <p class="fw-bold">${tps.nama_seri}</p>
+              <div class="card-text">
+                <div class="wrap" style="border: none;">
+                  <p class="m-0" style="color: #0c4da2;">
+                    ${type.nama_brand}
+                  </p>
+                  <p>${dt.tahun}</p>
+                </div>
+                <div class="wrap">
+                  <p class="fw-bold">${dt.nama_seri}</p>
+                </div>
+                <div class="wrap" style="border: none;">
+                  <p>Harga LCD</p>
+                  <p>${dt.harga_lcd >= 1 ? `Rp. ${dt.harga_lcd} .-` : `Tidak Tersedia`}</p>
+                </div>
+                <div class="wrap" style="border: none;">
+                  <p>Harga Baterai</p>
+                  <p>${dt.harga_baterai >= 1 ? `Rp. ${dt.harga_baterai} .-` : `Tidak Tersedia`}</p>
+                </div>
+              </div>
             </div>
-            <div class="wrap" style="border: none;">
-              <p>Harga LCD</p>
-              <p>Rp. ${tps.harga_lcd} ,-</p>
-            </div>
-            <div class="wrap" style="border: none;">
-              <p>Harga Baterai</p>
-              <p>Rp. ${tps.harga_baterai} ,-</p>
-            </div>
-          </div>
-        </div>
-      </div>`;
+          </div>`;
       }
     })
     .join("");
 
   // Output 2019
-  const stock2019 = types
-    .map((tps) => {
-      if (tps.tahun === 2019) {
+  const stock2019 = datas
+    .map((dt) => {
+      if (dt.tahun === 2019) {
         return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
-        <div class="card">
-          <div class="card-images">
-            <img src="${tps.images}" alt="" class="w-100" />
-          </div>
-          <div class="card-text">
-            <div class="wrap" style="border: none;">
-              <p class="m-0" style="color: #0c4da2;">${type.nama_brand}</p>
-              <p>${tps.tahun}</p>
+            <div class="card">
+              <div class="card-images">
+                <img src="${dt.images}" alt="" class="w-100" />
               </div>
-              <div class="wrap" >
-              <p class="fw-bold">${tps.nama_seri}</p>
+              <div class="card-text">
+                <div class="wrap" style="border: none;">
+                  <p class="m-0" style="color: #0c4da2;">
+                    ${type.nama_brand}
+                  </p>
+                  <p>${dt.tahun}</p>
+                </div>
+                <div class="wrap">
+                  <p class="fw-bold">${dt.nama_seri}</p>
+                </div>
+                <div class="wrap" style="border: none;">
+                  <p>Harga LCD</p>
+                  <p>${dt.harga_lcd >= 1 ? `Rp. ${dt.harga_lcd} .-` : `Tidak Tersedia`}</p>
+                </div>
+                <div class="wrap" style="border: none;">
+                  <p>Harga Baterai</p>
+                  <p>${dt.harga_baterai >= 1 ? `Rp. ${dt.harga_baterai} .-` : `Tidak Tersedia`}</p>
+                </div>
+              </div>
             </div>
-            <div class="wrap" style="border: none;">
-              <p>Harga LCD</p>
-              <p>Rp. ${tps.harga_lcd} ,-</p>
-            </div>
-            <div class="wrap" style="border: none;">
-              <p>Harga Baterai</p>
-              <p>Rp. ${tps.harga_baterai} ,-</p>
-            </div>
-          </div>
-        </div>
-      </div>`;
+          </div>`;
       }
     })
     .join("");
 
   // Output 2018
-  const stock2018 = types
-    .map((tps) => {
-      if (tps.tahun === 2018) {
+  const stock2018 = datas
+    .map((dt) => {
+      if (dt.tahun === 2018) {
         return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
-        <div class="card">
-          <div class="card-images">
-            <img src="${tps.images}" alt="" class="w-100" />
-          </div>
-          <div class="card-text">
-            <div class="wrap" style="border: none;">
-              <p class="m-0" style="color: #0c4da2;">${type.nama_brand}</p>
-              <p>${tps.tahun}</p>
+            <div class="card">
+              <div class="card-images">
+                <img src="${dt.images}" alt="" class="w-100" />
               </div>
-              <div class="wrap" >
-              <p class="fw-bold">${tps.nama_seri}</p>
+              <div class="card-text">
+                <div class="wrap" style="border: none;">
+                  <p class="m-0" style="color: #0c4da2;">
+                    ${type.nama_brand}
+                  </p>
+                  <p>${dt.tahun}</p>
+                </div>
+                <div class="wrap">
+                  <p class="fw-bold">${dt.nama_seri}</p>
+                </div>
+                <div class="wrap" style="border: none;">
+                  <p>Harga LCD</p>
+                  <p>${dt.harga_lcd >= 1 ? `Rp. ${dt.harga_lcd} .-` : `Tidak Tersedia`}</p>
+                </div>
+                <div class="wrap" style="border: none;">
+                  <p>Harga Baterai</p>
+                  <p>${dt.harga_baterai >= 1 ? `Rp. ${dt.harga_baterai} .-` : `Tidak Tersedia`}</p>
+                </div>
+              </div>
             </div>
-            <div class="wrap" style="border: none;">
-              <p>Harga LCD</p>
-              <p>Rp. ${tps.harga_lcd} ,-</p>
-            </div>
-            <div class="wrap" style="border: none;">
-              <p>Harga Baterai</p>
-              <p>Rp. ${tps.harga_baterai} ,-</p>
-            </div>
-          </div>
-        </div>
-      </div>`;
+          </div>`;
       }
     })
     .join("");
 
   // Output 2017
-  const stock2017 = types
-    .map((tps) => {
-      if (tps.tahun === 2017) {
+  const stock2017 = datas
+    .map((dt) => {
+      if (dt.tahun === 2017) {
         return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
-        <div class="card">
-          <div class="card-images">
-            <img src="${tps.images}" alt="" class="w-100" />
-          </div>
-          <div class="card-text">
-            <div class="wrap" style="border: none;">
-              <p class="m-0" style="color: #0c4da2;">${type.nama_brand}</p>
-              <p>${tps.tahun}</p>
+            <div class="card">
+              <div class="card-images">
+                <img src="${dt.images}" alt="" class="w-100" />
               </div>
-              <div class="wrap" >
-              <p class="fw-bold">${tps.nama_seri}</p>
+              <div class="card-text">
+                <div class="wrap" style="border: none;">
+                  <p class="m-0" style="color: #0c4da2;">
+                    ${type.nama_brand}
+                  </p>
+                  <p>${dt.tahun}</p>
+                </div>
+                <div class="wrap">
+                  <p class="fw-bold">${dt.nama_seri}</p>
+                </div>
+                <div class="wrap" style="border: none;">
+                  <p>Harga LCD</p>
+                  <p>${dt.harga_lcd >= 1 ? `Rp. ${dt.harga_lcd} .-` : `Tidak Tersedia`}</p>
+                </div>
+                <div class="wrap" style="border: none;">
+                  <p>Harga Baterai</p>
+                  <p>${dt.harga_baterai >= 1 ? `Rp. ${dt.harga_baterai} .-` : `Tidak Tersedia`}</p>
+                </div>
+              </div>
             </div>
-            <div class="wrap" style="border: none;">
-              <p>Harga LCD</p>
-              <p>Rp. ${tps.harga_lcd} ,-</p>
-            </div>
-            <div class="wrap" style="border: none;">
-              <p>Harga Baterai</p>
-              <p>Rp. ${tps.harga_baterai} ,-</p>
-            </div>
-          </div>
-        </div>
-      </div>`;
+          </div>`;
       }
     })
     .join("");
 
   // Output 2016
-  const stock2016 = types
-    .map((tps) => {
-      if (tps.tahun === 2016) {
+  const stock2016 = datas
+    .map((dt) => {
+      if (dt.tahun === 2016) {
         return `<div class="col-lg-4 col-md-4 col-sm-6 col-6">
-        <div class="card">
-          <div class="card-images">
-            <img src="${tps.images}" alt="" class="w-100" />
-          </div>
-          <div class="card-text">
-            <div class="wrap" style="border: none;">
-              <p class="m-0" style="color: #0c4da2;">${type.nama_brand}</p>
-              <p>${tps.tahun}</p>
+            <div class="card">
+              <div class="card-images">
+                <img src="${dt.images}" alt="" class="w-100" />
               </div>
-              <div class="wrap" >
-              <p class="fw-bold">${tps.nama_seri}</p>
+              <div class="card-text">
+                <div class="wrap" style="border: none;">
+                  <p class="m-0" style="color: #0c4da2;">
+                    ${type.nama_brand}
+                  </p>
+                  <p>${dt.tahun}</p>
+                </div>
+                <div class="wrap">
+                  <p class="fw-bold">${dt.nama_seri}</p>
+                </div>
+                <div class="wrap" style="border: none;">
+                  <p>Harga LCD</p>
+                  <p>${dt.harga_lcd >= 1 ? `Rp. ${dt.harga_lcd} .-` : `Tidak Tersedia`}</p>
+                </div>
+                <div class="wrap" style="border: none;">
+                  <p>Harga Baterai</p>
+                  <p>${dt.harga_baterai >= 1 ? `Rp. ${dt.harga_baterai} .-` : `Tidak Tersedia`}</p>
+                </div>
+              </div>
             </div>
-            <div class="wrap" style="border: none;">
-              <p>Harga LCD</p>
-              <p>Rp. ${tps.harga_lcd} ,-</p>
-            </div>
-            <div class="wrap" style="border: none;">
-              <p>Harga Baterai</p>
-              <p>Rp. ${tps.harga_baterai} ,-</p>
-            </div>
-          </div>
-        </div>
-      </div>`;
+          </div>`;
       }
     })
     .join("");
@@ -244,6 +291,10 @@ const loadStockSamsung = (types) => {
   row.innerHTML = tampilDefault;
 
   $(document).ready(function () {
+    $(".year2022").click(function () {
+      $(".title-items").hide();
+      row.innerHTML = stock2022;
+    });
     $(".year2021").click(function () {
       $(".title-items").hide();
       row.innerHTML = stock2021;

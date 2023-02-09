@@ -1,5 +1,590 @@
 {
   "id": 1,
   "nama_brand": "Xiaomi",
-  "xiaomi": [{}]
+  "xiaomi": [
+    {
+      "id": 1,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "Redmi 6A",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 2,
+      "images": "",
+      "tahun": 2017,
+      "nama_seri": "Redmi 6",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 3,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "Pocophone F1",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 4,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "Pocophone F1",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 5,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "Mi A2",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 6,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "Mi A2 Lite",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 7,
+      "images": "",
+      "tahun": 2013,
+      "nama_seri": "Mi 3",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 8,
+      "images": "",
+      "tahun": 2014,
+      "nama_seri": "Mi 4",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 9,
+      "images": "",
+      "tahun": 2015,
+      "nama_seri": "Mi 4C",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 10,
+      "images": "",
+      "tahun": 2015,
+      "nama_seri": "Mi 4i",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 11,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Mi 4S",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 12,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Mi 5",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 13,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Mi 5S",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 14,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Mi 5S Plus",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 15,
+      "images": "",
+      "tahun": 2015,
+      "nama_seri": "Mi Note",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 16,
+      "images": "",
+      "tahun": 2015,
+      "nama_seri": "Mi Note Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 17,
+      "images": "",
+      "tahun": 2023,
+      "nama_seri": "Mi Note 2",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 18,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Mi Redmi Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 19,
+      "images": "",
+      "tahun": 2015,
+      "nama_seri": "Mi Redmi 2",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 20,
+      "images": "",
+      "tahun": 2015,
+      "nama_seri": "Mi Redmi 2A",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 21,
+      "images": "",
+      "tahun": 2015,
+      "nama_seri": "Mi Redmi 2 Prime",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 22,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Mi Redmi 3",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 23,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Mi Redmi 3 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 24,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Mi Redmi 3S",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 25,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Mi Redmi 3S Prime",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 26,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Mi Redmi 3X",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 27,
+      "images": "",
+      "tahun": 2023,
+      "nama_seri": "Redmi 4",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 28,
+      "images": "",
+      "tahun": 2017,
+      "nama_seri": "Redmi 4A",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 29,
+      "images": "",
+      "tahun": 2023,
+      "nama_seri": "Redmi 4 Prime",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 30,
+      "images": "",
+      "tahun": 2015,
+      "nama_seri": "Redmi Note Prime",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 31,
+      "images": "",
+      "tahun": 2015,
+      "nama_seri": "Redmi Note 2",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 32,
+      "images": "",
+      "tahun": 2015,
+      "nama_seri": "Redmi Note 2 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 33,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Redmi Note 3",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 34,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Redmi Note 3 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 35,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Redmi Note 4",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 36,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "Redmi Note 8",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 37,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "Redmi Note 8 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 38,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "Mi 9",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 39,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "Mi 9 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 40,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "Redmi Note 7",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 41,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "Mi 8 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 42,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "Mi 9T",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 43,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "Mi 9T Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 44,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "Redmi Note 8T",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 45,
+      "images": "",
+      "tahun": 2017,
+      "nama_seri": "Redmi 5A",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 46,
+      "images": "",
+      "tahun": 2017,
+      "nama_seri": "Redmi 4X",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 47,
+      "images": "",
+      "tahun": 2017,
+      "nama_seri": "Redmi 5",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 48,
+      "images": "",
+      "tahun": 2017,
+      "nama_seri": "Redmi 5X",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 49,
+      "images": "",
+      "tahun": 2017,
+      "nama_seri": "Mi A1",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 50,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Mi Note 10",
+      "harga_lcd": 1000000,
+      "harga_baterai": ""
+    },
+    {
+      "id": 51,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Mi Note 10 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 52,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Redmi K30 5G",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 53,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Poco X2",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 54,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Redmi 8A Dual",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 55,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Redmi 8A Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 56,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Mi 10 Lite 5G",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 57,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Redmi Note 9",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 58,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Redmi Note 9 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 59,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Poco F2 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 60,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Redmi 9",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 61,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Redmi 9A",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 62,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Redmi 9C",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 63,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Poco X3 NFC",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 64,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Mi 10T",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 65,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Mi 10T Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 65,
+      "images": "",
+      "tahun": 2021,
+      "nama_seri": "Mi 11",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 66,
+      "images": "",
+      "tahun": 2021,
+      "nama_seri": "Mi 11 Lite",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 66,
+      "images": "",
+      "tahun": 2021,
+      "nama_seri": "Mi 11 Ultra",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 67,
+      "images": "",
+      "tahun": 2021,
+      "nama_seri": "Redmi Note 10",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 68,
+      "images": "",
+      "tahun": 2021,
+      "nama_seri": "Redmi Note 10 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 69,
+      "images": "",
+      "tahun": 2022,
+      "nama_seri": "Redmi Note 10S",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 70,
+      "images": "",
+      "tahun": 2021,
+      "nama_seri": "Redmi Note 10 5G",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 71,
+      "images": "",
+      "tahun": 2021,
+      "nama_seri": "Redmi 10",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    }
+  ]
 }
