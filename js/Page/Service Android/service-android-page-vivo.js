@@ -24,7 +24,7 @@ const allData = (datas) => {
                 </div>
                 <div class="card-text">
                   <div class="wrap" style="border: none;">
-                    <p class="m-0" style="color: #FD4900;">${data.nama_brand}</p>
+                    <p class="m-0" style="color: #0072b8;">${data.nama_brand}</p>
                     <p>${dt.tahun}</p>
                     </div>
                     <div class="wrap" >
@@ -54,7 +54,7 @@ const allData = (datas) => {
                 </div>
                 <div class="card-text">
                   <div class="wrap" style="border: none;">
-                    <p class="m-0" style="color: #FD4900;">${data.nama_brand}</p>
+                    <p class="m-0" style="color: #0072b8;">${data.nama_brand}</p>
                     <p>${dt.tahun}</p>
                     </div>
                     <div class="wrap" >
@@ -84,7 +84,7 @@ const allData = (datas) => {
                 </div>
                 <div class="card-text">
                   <div class="wrap" style="border: none;">
-                    <p class="m-0" style="color: #FD4900;">${data.nama_brand}</p>
+                    <p class="m-0" style="color: #0072b8;">${data.nama_brand}</p>
                     <p>${dt.tahun}</p>
                     </div>
                     <div class="wrap" >
@@ -114,7 +114,7 @@ const allData = (datas) => {
                 </div>
                 <div class="card-text">
                   <div class="wrap" style="border: none;">
-                    <p class="m-0" style="color: #FD4900;">${data.nama_brand}</p>
+                    <p class="m-0" style="color: #0072b8;">${data.nama_brand}</p>
                     <p>${dt.tahun}</p>
                     </div>
                     <div class="wrap" >
@@ -144,7 +144,7 @@ const allData = (datas) => {
                 </div>
                 <div class="card-text">
                   <div class="wrap" style="border: none;">
-                    <p class="m-0" style="color: #FD4900;">${data.nama_brand}</p>
+                    <p class="m-0" style="color: #0072b8;">${data.nama_brand}</p>
                     <p>${dt.tahun}</p>
                     </div>
                     <div class="wrap" >
@@ -174,7 +174,7 @@ const allData = (datas) => {
                 </div>
                 <div class="card-text">
                   <div class="wrap" style="border: none;">
-                    <p class="m-0" style="color: #FD4900;">${data.nama_brand}</p>
+                    <p class="m-0" style="color: #0072b8;">${data.nama_brand}</p>
                     <p>${dt.tahun}</p>
                     </div>
                     <div class="wrap" >
@@ -204,7 +204,7 @@ const allData = (datas) => {
                 </div>
                 <div class="card-text">
                   <div class="wrap" style="border: none;">
-                    <p class="m-0" style="color: #FD4900;">${data.nama_brand}</p>
+                    <p class="m-0" style="color: #0072b8;">${data.nama_brand}</p>
                     <p>${dt.tahun}</p>
                     </div>
                     <div class="wrap" >
@@ -234,7 +234,7 @@ const allData = (datas) => {
                 </div>
                 <div class="card-text">
                   <div class="wrap" style="border: none;">
-                    <p class="m-0" style="color: #FD4900;">${data.nama_brand}</p>
+                    <p class="m-0" style="color: #0072b8;">${data.nama_brand}</p>
                     <p>${dt.tahun}</p>
                     </div>
                     <div class="wrap" >

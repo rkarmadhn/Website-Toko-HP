@@ -33,7 +33,7 @@ document.querySelector(".filter").innerHTML = `<div class="side-menu">
   <p class="text-secondary">*) Untuk harga sudah termasuk jasa pasang , Sewaktu waktu harga akan berubah, Untuk stock bisa ditanyakan melalui Whatsapp kami atau tekan Contact pada Navigasi kami</p>
 </div>
 <div class="wrap my-2">
-  <p class="text-secondary">*) ${date}</p>
+  <p class="text-secondary">*) Data update : ${date}</p>
 </div>
 </div>`;
 
