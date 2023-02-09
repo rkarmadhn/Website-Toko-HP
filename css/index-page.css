@@ -41,19 +41,10 @@ body a, body a:hover {
   body {
     padding-top: 4rem;
   }
-  h1 {
-    font-size: 1.75rem;
-  }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   /* Card */
-  h1 {
-    font-size: 2.5rem;
-  }
-  h2 {
-    font-size: 2rem;
-  }
   .images-card {
     height: 100vh;
   }

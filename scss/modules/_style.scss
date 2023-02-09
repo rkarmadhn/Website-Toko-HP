@@ -14,13 +14,11 @@ body {
     transition: all 0.5s;
   }
 }
-.text-logo {
-  font-size: 2rem;
-  font-family: "Press Start 2P";
-}
+
 .hide {
   display: none !important;
 }
+
 .footer {
   background-color: #212121;
   color: #fff;
@@ -31,47 +29,15 @@ body {
   }
 }
 
-// Custom Buttons
-.btn-uiverse-io {
-  align-items: center;
-  background-color: transparent;
-  color: #212121;
-  cursor: pointer;
-  display: flex;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.5;
-  text-decoration: none;
-  text-transform: uppercase;
-  outline: 0;
-  border: 0;
-  padding: 1rem;
-}
-
-.btn-uiverse-io:before {
-  background-color: #212121;
-  content: "";
-  display: inline-block;
-  height: 1px;
-  margin-right: 10px;
-  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
-  width: 0;
-}
-
-.focus.btn-uiverse-io:focus:before {
-  background-color: #212121;
-  width: 3rem;
-}
-
 // Banner
 .banner {
   width: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-.banner-text {
-  @include flex-box(center, center);
+  .banner-text {
+    @include flex-box(center, center);
+  }
 }
 
 // Slick
@@ -107,8 +73,10 @@ body {
   }
 }
 
-
 @media (max-width: 575.98px) {
+  h1 {
+    font-size: 1.75rem;
+  }
   // Banner
   .banner {
     height: 60vh;
@@ -117,6 +85,12 @@ body {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
   // Banner
   .banner {
     height: 100vh;
@@ -140,10 +114,10 @@ body {
 }
 
 @keyframes fade {
-  0%{
+  0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }

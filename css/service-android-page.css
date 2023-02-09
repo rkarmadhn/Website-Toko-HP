@@ -126,11 +126,11 @@ main .card .card-text .wrap * {
 }
 
 @media (max-width: 575.98px) {
-  .side-menu {
-    padding: 0;
-  }
   .container-fluid {
     padding: 0 0.5rem;
+  }
+  .container-fluid .side-menu {
+    padding: 0;
   }
   .container-fluid .col-6 {
     padding: 0.25rem;
@@ -202,22 +202,22 @@ main .card .card-text .wrap * {
   main .side-menu .close-filter {
     display: none;
   }
-  .card {
+  main .card {
     border: 1px solid #f2f2fe;
     border-radius: 1rem;
     box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
   }
-  .card .card-images {
+  main .card .card-images {
     padding: 0.5rem;
   }
-  .card .card-images img {
+  main .card .card-images img {
     min-height: 184.99px;
     max-height: 185px;
   }
-  .card .card-text {
+  main .card .card-text {
     padding: 0.5rem;
   }
-  .card .card-text .wrap {
+  main .card .card-text .wrap {
     border-bottom: 1px solid #212121;
   }
 }
