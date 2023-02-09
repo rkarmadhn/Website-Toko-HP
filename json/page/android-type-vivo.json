@@ -1,5 +1,598 @@
 {
-    "id": 1,
-    "nama_brand": "Vivo",
-    "vivo": [{}]
+  "id": 1,
+  "nama_brand": "Vivo",
+  "vivo": [
+    {
+      "id": 1,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Y27L",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 2,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Y15S",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 3,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "X6 Plus",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 4,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "X6",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 5,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Y31",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 6,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Y37",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 7,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Y15",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 8,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Y11",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 9,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Y35",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 10,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "V1",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 11,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Xplay 3s",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 12,
+      "images": "",
+      "tahun": 2016,
+      "nama_seri": "Y33",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 13,
+      "images": "",
+      "tahun": 2017,
+      "nama_seri": "Y21",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 14,
+      "images": "",
+      "tahun": 2017,
+      "nama_seri": "Y22",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 15,
+      "images": "",
+      "tahun": 2017,
+      "nama_seri": "Y15",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 16,
+      "images": "",
+      "tahun": 2017,
+      "nama_seri": "Y51",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 17,
+      "images": "",
+      "tahun": 2017,
+      "nama_seri": "Y55",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 18,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "Y55s",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 19,
+      "images": "",
+      "tahun": 2017,
+      "nama_seri": "V5 Lite",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 20,
+      "images": "",
+      "tahun": 2017,
+      "nama_seri": "Y66",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 21,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "Y69",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 22,
+      "images": "",
+      "tahun": 2017,
+      "nama_seri": "V1",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 23,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "V5",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 24,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "V5s",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 25,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "V5 Plus",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 26,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "V7",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 27,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "V7 Plus",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 28,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "V9 Youth",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 29,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "V9",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 30,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "Y83",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 31,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "Y71",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 32,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "Y53",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 33,
+      "images": "",
+      "tahun": 2018,
+      "nama_seri": "Y65",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 34,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "Y12",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 35,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "Y91",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 36,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "Y93",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 37,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "Y95",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 38,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "Y15 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 39,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "Y17",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 40,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "V9",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 41,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "V11 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 42,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "S1",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 43,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "Z1 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 44,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "V15",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 45,
+      "images": "",
+      "tahun": 2019,
+      "nama_seri": "V15 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 46,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Y91C",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 47,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Y12i",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 48,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Y30i",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 49,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Y30",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 50,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Y20s",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 51,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Y19",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 52,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "Y50",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 53,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "V19",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 54,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "V20 SE",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 55,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "V20",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 56,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "X50",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 57,
+      "images": "",
+      "tahun": 2020,
+      "nama_seri": "X50 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 58,
+      "images": "",
+      "tahun": 2021,
+      "nama_seri": "X60 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 59,
+      "images": "",
+      "tahun": 2021,
+      "nama_seri": "Y16",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 60,
+      "images": "",
+      "tahun": 2021,
+      "nama_seri": "Y21T",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 61,
+      "images": "",
+      "tahun": 2021,
+      "nama_seri": "Y35 2021",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 62,
+      "images": "",
+      "tahun": 2021,
+      "nama_seri": "Y75 5G",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 63,
+      "images": "",
+      "tahun": 2022,
+      "nama_seri": "T1 5G",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 64,
+      "images": "",
+      "tahun": 2022,
+      "nama_seri": "T1 Pro 5G",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 65,
+      "images": "",
+      "tahun": 2021,
+      "nama_seri": "V23 5G",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 66,
+      "images": "",
+      "tahun": 2022,
+      "nama_seri": "V25e",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 67,
+      "images": "",
+      "tahun": 2021,
+      "nama_seri": "V25",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 68,
+      "images": "",
+      "tahun": 2022,
+      "nama_seri": "V25 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 69,
+      "images": "",
+      "tahun": 2021,
+      "nama_seri": "X80",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 70,
+      "images": "",
+      "tahun": 2021,
+      "nama_seri": "X80 Pro",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 71,
+      "images": "",
+      "tahun": 2022,
+      "nama_seri": "Y02",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 72,
+      "images": "",
+      "tahun": 2022,
+      "nama_seri": "Y16 2022",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 73,
+      "images": "",
+      "tahun": 2022,
+      "nama_seri": "Y22 2022",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    },
+    {
+      "id": 74,
+      "images": "",
+      "tahun": 2022,
+      "nama_seri": "V25 5G",
+      "harga_lcd": "",
+      "harga_baterai": ""
+    }
+  ]
 }
