@@ -3,6 +3,7 @@ body {
   font-family: "Inter Tight", sans-serif;
   box-sizing: border-box;
   animation: fade 1s ease;
+  overflow-x: hidden;
 }
 body a {
   text-decoration: none;

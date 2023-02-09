@@ -2,6 +2,7 @@ body {
   font-family: "Inter Tight", sans-serif;
   box-sizing: border-box;
   animation: fade 1s ease;
+  overflow-x: hidden;
   a {
     text-decoration: none;
     cursor: pointer;

@@ -1,7 +1,9 @@
-const tahun = new Date().getFullYear();
-const bulan = new Date();
-const hari = new Date().getDay();
-const date = hari + " " + bulan + " " + tahun;
+const date = new Date();
+
+document.querySelector(".btn-filter").innerHTML = `<div class="label">
+<h5>Filter</h5>
+<i class="fa-solid fa-filter"></i>
+  </div>`;
 
 document.querySelector(".filter").innerHTML = `<div class="side-menu">
 <div class="label">
@@ -53,5 +55,18 @@ $(document).ready(function () {
     $(".fa-arrow-down").removeClass("hide");
     $(".fa-arrow-up").addClass("hide");
     $(".show-years").addClass("hide");
+  });
+
+  $(".close-filter").click(function () {
+    $(".fa-arrow-down").removeClass("hide");
+    $(".fa-arrow-up").addClass("hide");
+    $(".show-years").addClass("hide");
+    $(".filter").css("bottom", "-500px");
+    $(".btn-filter").css("bottom", "0");
+  });
+
+  $(".btn-filter").click(function () {
+    $(".filter").css("bottom", " 0");
+    $(this).css("bottom", "-100px");
   });
 });

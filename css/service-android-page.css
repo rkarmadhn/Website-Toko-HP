@@ -150,6 +150,27 @@ main .card .card-text .wrap * {
   .container-fluid .col-6 .card .card-text p {
     font-size: 12px;
   }
+  .btn-filter {
+    position: fixed;
+    bottom: -100px;
+    width: 100%;
+    z-index: 1019;
+    margin: 0;
+    padding: 0.75rem 0.25rem;
+    background-color: #fafafa;
+    border-radius: 2rem 2rem 0 0;
+    transition: all 1s;
+  }
+  .btn-filter .label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .btn-filter .label * {
+    font-size: 1rem;
+    color: #212121;
+  }
   .filter {
     position: fixed;
     background-color: #fafafa;
@@ -159,6 +180,7 @@ main .card .card-text .wrap * {
     border-radius: 2rem 2rem 0 0;
     padding: 1rem;
     margin: 0;
+    transition: all 1s;
   }
   .filter .label {
     display: flex;
@@ -171,8 +193,14 @@ main .card .card-text .wrap * {
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  main .btn-filter {
+    display: none;
+  }
   main .side-menu {
     padding: 0.5rem;
+  }
+  main .side-menu .close-filter {
+    display: none;
   }
   .card {
     border: 1px solid #f2f2fe;
