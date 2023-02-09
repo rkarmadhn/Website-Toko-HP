@@ -151,9 +151,8 @@ main .card .card-text .wrap * {
     display: none;
   }
   main .card {
-    border: 1px solid #f2f2fe;
+    border: 1px solid #acacac;
     border-radius: 1rem;
-    box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
   }
   main .card .card-images {
     padding: 0.5rem;
