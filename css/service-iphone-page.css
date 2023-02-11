@@ -100,7 +100,7 @@ main .card .card-text .wrap * {
   }
   .btn-filter {
     position: fixed;
-    bottom: -100px;
+    bottom: 0;
     width: 100%;
     z-index: 1019;
     margin: 0;
@@ -122,7 +122,7 @@ main .card .card-text .wrap * {
   .filter {
     position: fixed;
     background-color: #fafafa;
-    bottom: 0;
+    bottom: -500px;
     width: 100%;
     z-index: 1020;
     border-radius: 2rem 2rem 0 0;

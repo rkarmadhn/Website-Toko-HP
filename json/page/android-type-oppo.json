@@ -4,7 +4,7 @@
   "oppo": [
     {
       "id": 1,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//786/oppo_oppo-f1s-smartphone---rose-gold_full02.jpg",
       "tahun": 2016,
       "nama_seri": "F1s",
       "harga_lcd": "",
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "images": "",
+      "images": "https://storage.googleapis.com/app-nesia-wordpress-production/2017/05/Oppo-F1S.jpg",
       "tahun": 2016,
       "nama_seri": "F1 Plus",
       "harga_lcd": "",
@@ -20,7 +20,7 @@
     },
     {
       "id": 3,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//100/MTA-3788505/oppo_oppo-a39-ram-3-32-garansi-distributor_full04.jpg",
       "tahun": 2016,
       "nama_seri": "A39",
       "harga_lcd": "",
@@ -28,7 +28,7 @@
     },
     {
       "id": 4,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/MTA-1376335/oppo_oppo-a37-smartphone---black--16gb--2gb-_full04.jpg",
       "tahun": 2016,
       "nama_seri": "A37",
       "harga_lcd": "",
@@ -36,7 +36,7 @@
     },
     {
       "id": 5,
-      "images": "",
+      "images": "https://gizmologi.id/wp-content/uploads/2017/10/OPPO-A71.jpg",
       "tahun": 2017,
       "nama_seri": "A71",
       "harga_lcd": "",
@@ -44,7 +44,7 @@
     },
     {
       "id": 6,
-      "images": "",
+      "images": "https://img10.jd.id/Indonesia/nHBfsgAABQAAABUALApGBwAGODw.png",
       "tahun": 2017,
       "nama_seri": "R11 Plus",
       "harga_lcd": "",
@@ -52,7 +52,7 @@
     },
     {
       "id": 7,
-      "images": "",
+      "images": "https://files.gsmchoice.com/news/7881/20170717090752596c156849332-28988.png",
       "tahun": 2017,
       "nama_seri": "A77",
       "harga_lcd": "",
@@ -60,7 +60,7 @@
     },
     {
       "id": 8,
-      "images": "",
+      "images": "https://www.androidauthority.com/wp-content/uploads/2017/06/Oppo-R11-g.jpg",
       "tahun": 2017,
       "nama_seri": "R11",
       "harga_lcd": "",
@@ -68,7 +68,7 @@
     },
     {
       "id": 9,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//904/oppo_oppo-f3-plus-smartphone---black--ram-4gb-64gb-_full03.jpg",
       "tahun": 2017,
       "nama_seri": "F3",
       "harga_lcd": "",
@@ -76,7 +76,7 @@
     },
     {
       "id": 10,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//904/oppo_oppo-f3-plus-smartphone---black--ram-4gb-64gb-_full03.jpg",
       "tahun": 2017,
       "nama_seri": "F3 Plus",
       "harga_lcd": "",
@@ -84,7 +84,7 @@
     },
     {
       "id": 11,
-      "images": "",
+      "images": "https://www.pilihmana.com/wp-content/uploads/2017/08/oppo-a39-1.jpg",
       "tahun": 2017,
       "nama_seri": "A39",
       "harga_lcd": "",
@@ -92,7 +92,7 @@
     },
     {
       "id": 12,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//91/MTA-2834019/oppo_oppo-a7-smartphone--4gb-64gb-_full11.jpg",
       "tahun": 2018,
       "nama_seri": "A7",
       "harga_lcd": "",
@@ -100,7 +100,7 @@
     },
     {
       "id": 13,
-      "images": "",
+      "images": "data:image/jpeg;base64,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",
       "tahun": 2018,
       "nama_seri": "K1",
       "harga_lcd": "",
@@ -108,7 +108,7 @@
     },
     {
       "id": 14,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//83/MTA-3050063/oem_oem-shockproof-casing-for-oppo-realme-2-pro-6-3-inch---clear---free-tempered-glass_full03.jpg",
       "tahun": 2018,
       "nama_seri": "Realme 2 Pro",
       "harga_lcd": "",
@@ -116,7 +116,7 @@
     },
     {
       "id": 15,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//95/MTA-2650279/oppo_oppo-realme-2-smartphone--32gb-3gb-_full04.jpg",
       "tahun": 2018,
       "nama_seri": "Realme 2",
       "harga_lcd": "",
@@ -124,7 +124,7 @@
     },
     {
       "id": 16,
-      "images": "",
+      "images": "https://cf.shopee.co.id/file/d8f28e17f7b6d233409b458814608e80",
       "tahun": 2018,
       "nama_seri": "F9",
       "harga_lcd": "",
@@ -132,7 +132,7 @@
     },
     {
       "id": 17,
-      "images": "",
+      "images": "data:image/jpeg;base64,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",
       "tahun": 2018,
       "nama_seri": "A7x",
       "harga_lcd": "",
@@ -140,7 +140,7 @@
     },
     {
       "id": 18,
-      "images": "",
+      "images": "https://officepro.id/image/cache/data/journal2/Catalogue/Image/Products/Technology/Oppo/HOP-A3S-3GB-PUR-800x800.jpg",
       "tahun": 2018,
       "nama_seri": "A3S",
       "harga_lcd": "",
@@ -148,7 +148,7 @@
     },
     {
       "id": 19,
-      "images": "",
+      "images": "https://cdn.istyle.im/images/product/web/20/51/40/00/0/000000405120_01_800.png.webp",
       "tahun": 2018,
       "nama_seri": "F7 Youth",
       "harga_lcd": "",
@@ -156,7 +156,7 @@
     },
     {
       "id": 20,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//87/MTA-2300953/oppo_oppo-f7-smartphone--64gb--4gb-_full20.jpg",
       "tahun": 2018,
       "nama_seri": "F7",
       "harga_lcd": "",
@@ -164,7 +164,7 @@
     },
     {
       "id": 21,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//87/MTA-2211783/oppo_oppo-a83-fullviewdisplay_full07.jpg",
       "tahun": 2018,
       "nama_seri": "A83",
       "harga_lcd": "",
@@ -172,7 +172,7 @@
     },
     {
       "id": 22,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//101/MTA-4580677/oppo_oppo_a9_2020_smartphone_-128_gb-_4_gb-_l-_full02_giurt5et.jpg",
       "tahun": 2019,
       "nama_seri": "A9 2020",
       "harga_lcd": "",
@@ -180,7 +180,7 @@
     },
     {
       "id": 23,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//94/MTA-4468170/oppo_oppo_reno_2f_smartphone_-128gb-_8gb-_full13_p1vif7pm.jpg",
       "tahun": 2019,
       "nama_seri": "Reno 2F",
       "harga_lcd": "",
@@ -188,7 +188,7 @@
     },
     {
       "id": 24,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//94/MTA-4468170/oppo_oppo_reno_2f_smartphone_-128gb-_8gb-_full13_p1vif7pm.jpg",
       "tahun": 2019,
       "nama_seri": "Reno",
       "harga_lcd": "",
@@ -196,7 +196,7 @@
     },
     {
       "id": 25,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//95/MTA-3558542/oppo_oppo-f11-pro-ram-6-64-gb-original-smartphone-garansi-resmi-oppo-indonesia_full06.jpg ",
       "tahun": 2019,
       "nama_seri": "F11 Pro",
       "harga_lcd": "",
@@ -204,7 +204,7 @@
     },
     {
       "id": 26,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//97/MTA-87651204/oem_oem_full01.jpg",
       "tahun": 2020,
       "nama_seri": "A92",
       "harga_lcd": "",
@@ -212,7 +212,7 @@
     },
     {
       "id": 27,
-      "images": "",
+      "images": "https://cf.shopee.co.id/file/182690a8a62f1ad29cd33dd9790b86e0",
       "tahun": 2020,
       "nama_seri": "A52",
       "harga_lcd": "",
@@ -220,7 +220,7 @@
     },
     {
       "id": 28,
-      "images": "",
+      "images": "https://cdn.istyle.im/images/product/web/23/05/82/00/0/000000820523_01_800.jpg",
       "tahun": 2020,
       "nama_seri": "A12",
       "harga_lcd": "",
@@ -228,7 +228,7 @@
     },
     {
       "id": 29,
-      "images": "",
+      "images": "https://media.pricebook.co.id/images/product/L/92409_L_1.jpg",
       "tahun": 2020,
       "nama_seri": "Reno 3 Pro",
       "harga_lcd": "",
@@ -236,7 +236,7 @@
     },
     {
       "id": 30,
-      "images": "",
+      "images": "https://media.pricebook.co.id/images/product/L/92408_L_1.jpg",
       "tahun": 2020,
       "nama_seri": "Reno 3",
       "harga_lcd": "",
@@ -244,7 +244,7 @@
     },
     {
       "id": 31,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//92/MTA-6610843/oppo_oppo_find_x2_pro_smartphone_-512_gb-_12_gb-_full07_c4gahj6q.jpg",
       "tahun": 2020,
       "nama_seri": "Find X2 Pro",
       "harga_lcd": "",
@@ -252,7 +252,7 @@
     },
     {
       "id": 32,
-      "images": "",
+      "images": "https://media.pricebook.co.id/images/product/L/94728_L_1.jpg",
       "tahun": 2021,
       "nama_seri": "Reno 5",
       "harga_lcd": "",
@@ -260,7 +260,7 @@
     },
     {
       "id": 33,
-      "images": "",
+      "images": "https://media.pricebook.co.id/images/product/L/95188_L_1.jpg",
       "tahun": 2021,
       "nama_seri": "Reno 5 5G",
       "harga_lcd": "",
@@ -268,7 +268,7 @@
     },
     {
       "id": 34,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//110/MTA-12897758/oppo_oppo_reno5_f__smartphone_-8gb-128gb-_full01_qbkgdo59.jpg",
       "tahun": 2021,
       "nama_seri": "Reno 5 F",
       "harga_lcd": "",
@@ -276,7 +276,7 @@
     },
     {
       "id": 35,
-      "images": "",
+      "images": "https://cdn.eraspace.com/media/catalog/product/o/p/oppo_reno6_aurora_1.jpg",
       "tahun": 2021,
       "nama_seri": "Reno 6",
       "harga_lcd": "",
@@ -284,7 +284,7 @@
     },
     {
       "id": 36,
-      "images": "",
+      "images": "https://cdn.eraspace.com/media/catalog/product/o/p/oppo_reno6_aurora_1.jpg",
       "tahun": 2021,
       "nama_seri": "Reno 6 5G",
       "harga_lcd": "",
@@ -292,7 +292,7 @@
     },
     {
       "id": 37,
-      "images": "",
+      "images": "https://media.pricebook.co.id/images/product/L/96766_L_1.jpg",
       "tahun": 2021,
       "nama_seri": "Reno 6 Pro 5G",
       "harga_lcd": "",
@@ -300,7 +300,7 @@
     },
     {
       "id": 38,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//97/MTA-26291617/oppo_oppo_a16_resmi_oppo_full02_91799c41.jpg",
       "tahun": 2021,
       "nama_seri": "A16",
       "harga_lcd": "",
@@ -308,7 +308,7 @@
     },
     {
       "id": 39,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//99/MTA-19692243/oppo_oppo_full01.jpg",
       "tahun": 2021,
       "nama_seri": "A54",
       "harga_lcd": "",
@@ -316,7 +316,7 @@
     },
     {
       "id": 40,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//90/MTA-20224096/oppo_oppo_a74_full01_oqzzle62.jpg",
       "tahun": 2021,
       "nama_seri": "A74",
       "harga_lcd": "",
@@ -324,7 +324,7 @@
     },
     {
       "id": 41,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//110/MTA-19448678/oppo_oppo_a74_5g_6-128gb_garansi_resmi_po_-_ready_4_mei_2021_-_full01_mezzid58.jpg",
       "tahun": 2021,
       "nama_seri": "A74 5G",
       "harga_lcd": "",
@@ -332,7 +332,7 @@
     },
     {
       "id": 42,
-      "images": "",
+      "images": "https://www.hargaria.com/wp-content/uploads/Oppo-F19-Pro.jpg",
       "tahun": 2021,
       "nama_seri": "A95",
       "harga_lcd": "",
@@ -340,7 +340,7 @@
     },
     {
       "id": 43,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//100/MTA-75634074/oppo_oppo_a16e_3-32gb_full01_e7ni82o3.jpg",
       "tahun": 2022,
       "nama_seri": "A16e",
       "harga_lcd": "",
@@ -348,7 +348,7 @@
     },
     {
       "id": 44,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//111/MTA-53546889/oppo_oppo_a16k_4-64_full01_8074e317.jpg",
       "tahun": 2022,
       "nama_seri": "A16k",
       "harga_lcd": "",
@@ -356,7 +356,7 @@
     },
     {
       "id": 45,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//101/MTA-67560337/oppo_oppo_a17_-_4gb-64gb_full14_erzxh5kw.jpg",
       "tahun": 2022,
       "nama_seri": "A17",
       "harga_lcd": "",
@@ -364,7 +364,7 @@
     },
     {
       "id": 46,
-      "images": "",
+      "images": "https://cdn.shopify.com/s/files/1/0609/6974/6595/products/oppoa17k_800x.png?v=1669101587",
       "tahun": 2022,
       "nama_seri": "A17k",
       "harga_lcd": "",
@@ -372,7 +372,7 @@
     },
     {
       "id": 47,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//111/MTA-53458797/oppo_oppo_a55_full06_kit4202j.jpg",
       "tahun": 2022,
       "nama_seri": "A55",
       "harga_lcd": "",
@@ -380,7 +380,7 @@
     },
     {
       "id": 48,
-      "images": "",
+      "images": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//95/MTA-65700462/oppo_oppo_a57_new_2022__full01_vbcgbl97.jpg",
       "tahun": 2022,
       "nama_seri": "A57",
       "harga_lcd": "",
@@ -388,7 +388,7 @@
     },
     {
       "id": 49,
-      "images": "",
+      "images": "https://id-test-11.slatic.net/p/502cb0c58048b95f46cfc56f328e7636.png",
       "tahun": 2022,
       "nama_seri": "A77s",
       "harga_lcd": "",
@@ -396,7 +396,7 @@
     },
     {
       "id": 50,
-      "images": "",
+      "images": "https://laz-img-sg.alicdn.com/p/990483c2c18066b632f541718d9749b2.jpg",
       "tahun": 2022,
       "nama_seri": "A96",
       "harga_lcd": "",
